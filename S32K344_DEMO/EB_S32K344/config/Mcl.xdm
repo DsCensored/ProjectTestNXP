@@ -161,9 +161,7 @@
                            value="true">
                       <a:a name="IMPORTER_INFO" value="@DEF"/>
                     </d:var>
-                    <d:var name="EmiosMclClkDivVal" type="INTEGER" value="1">
-                      <a:a name="IMPORTER_INFO" value="@DEF"/>
-                    </d:var>
+                    <d:var name="EmiosMclClkDivVal" type="INTEGER" value="10"/>
                     <d:ref name="EmiosCommonEcucPartitionRef" type="REFERENCE" >
                       <a:a name="ENABLE" value="false"/>
                       <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -175,7 +173,7 @@
                         <d:var name="EmiosMclMasterBusModeType" 
                                type="ENUMERATION" value="MCB_UP_COUNTER"/>
                         <d:var name="EmiosMclDefaultPeriod" type="INTEGER" 
-                               value="1000"/>
+                               value="65535"/>
                         <d:var name="EmiosMclFirstOffsetValue" type="INTEGER" 
                                value="0">
                           <a:a name="IMPORTER_INFO" value="@DEF"/>

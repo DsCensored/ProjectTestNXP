@@ -2718,7 +2718,7 @@ PORT_CONFIG_PB
 #define PortConf_PortPin_PortPin_PA06  5
 #define PortConf_PortPin_PortPin_PA07  6
 #define PortConf_PortPin_PortPin_PA00  7
-#define PortConf_PortPin_PortPin_0  8
+#define PortConf_PortPin_PortPin_PB08  8
 
 /**
 * @brief The maximum number of configured pins

@@ -22,6 +22,7 @@ C_SRCS += \
 ../Generate/src/Dma_Ip_Cfg.c \
 ../Generate/src/Dma_Ip_PBcfg.c \
 ../Generate/src/Emios_Gpt_Ip_PBcfg.c \
+../Generate/src/Emios_Icu_Ip_PBcfg.c \
 ../Generate/src/Emios_Mcl_Ip_PBcfg.c \
 ../Generate/src/Emios_Pwm_Ip_PBcfg.c \
 ../Generate/src/Etpu_Pwm_Ip_PBcfg.c \
@@ -83,6 +84,7 @@ OBJS += \
 ./Generate/src/Dma_Ip_Cfg.o \
 ./Generate/src/Dma_Ip_PBcfg.o \
 ./Generate/src/Emios_Gpt_Ip_PBcfg.o \
+./Generate/src/Emios_Icu_Ip_PBcfg.o \
 ./Generate/src/Emios_Mcl_Ip_PBcfg.o \
 ./Generate/src/Emios_Pwm_Ip_PBcfg.o \
 ./Generate/src/Etpu_Pwm_Ip_PBcfg.o \
@@ -144,6 +146,7 @@ C_DEPS += \
 ./Generate/src/Dma_Ip_Cfg.d \
 ./Generate/src/Dma_Ip_PBcfg.d \
 ./Generate/src/Emios_Gpt_Ip_PBcfg.d \
+./Generate/src/Emios_Icu_Ip_PBcfg.d \
 ./Generate/src/Emios_Mcl_Ip_PBcfg.d \
 ./Generate/src/Emios_Pwm_Ip_PBcfg.d \
 ./Generate/src/Etpu_Pwm_Ip_PBcfg.d \

@@ -194,7 +194,7 @@
                     </BOOLEAN-VALUE>
                     <INTEGER-VALUE>
                       <DEFINITION-REF>/TS_T40D34M70I1R0/Mcl/MclConfig/EmiosCommon/EmiosMclClkDivVal</DEFINITION-REF>
-                      <VALUE>1</VALUE>
+                      <VALUE>10</VALUE>
                     </INTEGER-VALUE>
                   </PARAMETER-VALUES>
                   <SUB-CONTAINERS>
@@ -212,7 +212,7 @@
                         </ENUMERATION-VALUE>
                         <INTEGER-VALUE>
                           <DEFINITION-REF>/TS_T40D34M70I1R0/Mcl/MclConfig/EmiosCommon/EmiosMclMasterBus/EmiosMclDefaultPeriod</DEFINITION-REF>
-                          <VALUE>1000</VALUE>
+                          <VALUE>65535</VALUE>
                         </INTEGER-VALUE>
                         <INTEGER-VALUE>
                           <DEFINITION-REF>/TS_T40D34M70I1R0/Mcl/MclConfig/EmiosCommon/EmiosMclMasterBus/EmiosMclFirstOffsetValue</DEFINITION-REF>

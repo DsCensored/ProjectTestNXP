@@ -771,7 +771,7 @@
                       </PARAMETER-VALUES>
                     </CONTAINER>
                     <CONTAINER>
-                      <SHORT-NAME>PortPin_0</SHORT-NAME>
+                      <SHORT-NAME>PortPin_PB08</SHORT-NAME>
                       <DEFINITION-REF>/TS_T40D34M70I1R0/Port/PortConfigSet/PortContainer/PortPin</DEFINITION-REF>
                       <PARAMETER-VALUES>
                         <BOOLEAN-VALUE>

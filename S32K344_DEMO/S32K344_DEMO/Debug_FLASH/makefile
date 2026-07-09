@@ -48,23 +48,23 @@ endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 SECONDARY_SIZE += \
-S32K344_DEMO2.siz \
+S32K344_DEMO.siz \
 
 
 # All Target
-all: S32K344_DEMO2.elf secondary-outputs
+all: S32K344_DEMO.elf secondary-outputs
 
 # Tool invocations
-S32K344_DEMO2.elf: $(OBJS) D:\S32K344_DEMO2\S32K344_DEMO2\RTD\Platform_TS_T40D34M70I1R0\build_files\gcc\linker_flash_s32k344.ld $(USER_OBJS)
+S32K344_DEMO.elf: $(OBJS) D:\ProjectTestNXP\S32K344_DEMO\S32K344_DEMO\RTD\Platform_TS_T40D34M70I1R0\build_files\gcc\linker_flash_s32k344.ld $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Standard S32DS C Linker'
-	arm-none-eabi-gcc -o "S32K344_DEMO2.elf" "@S32K344_DEMO2.args"  $(USER_OBJS)  -lm
+	arm-none-eabi-gcc -o "S32K344_DEMO.elf" "@S32K344_DEMO.args"  $(USER_OBJS)  -lm
 	@echo 'Finished building target: $@'
 	@echo ' '
 
-S32K344_DEMO2.siz: S32K344_DEMO2.elf
+S32K344_DEMO.siz: S32K344_DEMO.elf
 	@echo 'Invoking: Standard S32DS Print Size'
-	arm-none-eabi-size --format=berkeley S32K344_DEMO2.elf
+	arm-none-eabi-size --format=berkeley S32K344_DEMO.elf
 	@echo 'Finished building: $@'
 	@echo ' '
 
