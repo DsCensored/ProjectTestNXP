@@ -1,0 +1,2 @@
+../RTD/Platform_TS_T40D34M70I1R0/startup/src/m7/startup.c:94:6:init_data_bss	56	static
+../RTD/Platform_TS_T40D34M70I1R0/startup/src/m7/startup.c:157:6:init_data_bss_core2	48	static

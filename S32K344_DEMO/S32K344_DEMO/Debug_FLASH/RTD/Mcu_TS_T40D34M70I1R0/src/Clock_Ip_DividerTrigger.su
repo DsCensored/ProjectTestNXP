@@ -1,0 +1,5 @@
+../RTD/Mcu_TS_T40D34M70I1R0/src/Clock_Ip_DividerTrigger.c:147:13:Clock_Ip_Callback_DividerTriggerEmpty	8	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Clock_Ip_DividerTrigger.c:154:13:Clock_Ip_ConfigureCgmXDivTrigCtrlTctlHhenUpdStat	24	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Clock_Ip_DividerTrigger.c:192:13:Clock_Ip_TriggerUpdateCgmXDivTrigCtrlTctlHhenUpdStat	48	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Clock_Ip_DividerTrigger.c:259:6:Clock_Ip_SetFerd_TrustedCall	0	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Clock_Ip_DividerTrigger.c:263:6:Clock_Ip_ResetFerd_TrustedCall	0	static

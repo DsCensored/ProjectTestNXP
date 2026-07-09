@@ -1,0 +1,13 @@
+../RTD/Platform_TS_T40D34M70I1R0/src/IntCtrl_Ip.c:195:6:IntCtrl_Ip_InstallHandlerPrivileged	24	static
+../RTD/Platform_TS_T40D34M70I1R0/src/IntCtrl_Ip.c:265:6:IntCtrl_Ip_EnableIrqPrivileged	8	static
+../RTD/Platform_TS_T40D34M70I1R0/src/IntCtrl_Ip.c:314:6:IntCtrl_Ip_DisableIrqPrivileged	8	static
+../RTD/Platform_TS_T40D34M70I1R0/src/IntCtrl_Ip.c:364:6:IntCtrl_Ip_SetPriorityPrivileged	16	static
+../RTD/Platform_TS_T40D34M70I1R0/src/IntCtrl_Ip.c:432:7:IntCtrl_Ip_GetPriorityPrivileged	16	static
+../RTD/Platform_TS_T40D34M70I1R0/src/IntCtrl_Ip.c:491:6:IntCtrl_Ip_ClearPendingPrivileged	8	static
+../RTD/Platform_TS_T40D34M70I1R0/src/IntCtrl_Ip.c:749:23:IntCtrl_Ip_Init	24	static
+../RTD/Platform_TS_T40D34M70I1R0/src/IntCtrl_Ip.c:815:6:IntCtrl_Ip_InstallHandler	24	static
+../RTD/Platform_TS_T40D34M70I1R0/src/IntCtrl_Ip.c:832:6:IntCtrl_Ip_EnableIrq	16	static
+../RTD/Platform_TS_T40D34M70I1R0/src/IntCtrl_Ip.c:847:6:IntCtrl_Ip_DisableIrq	16	static
+../RTD/Platform_TS_T40D34M70I1R0/src/IntCtrl_Ip.c:863:6:IntCtrl_Ip_SetPriority	16	static
+../RTD/Platform_TS_T40D34M70I1R0/src/IntCtrl_Ip.c:878:7:IntCtrl_Ip_GetPriority	16	static
+../RTD/Platform_TS_T40D34M70I1R0/src/IntCtrl_Ip.c:893:6:IntCtrl_Ip_ClearPending	16	static

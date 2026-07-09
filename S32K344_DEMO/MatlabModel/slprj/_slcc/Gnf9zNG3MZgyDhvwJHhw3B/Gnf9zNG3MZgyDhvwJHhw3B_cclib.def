@@ -1,0 +1,13 @@
+LIBRARY Gnf9zNG3MZgyDhvwJHhw3B_cclib.dll
+EXPORTS
+    get_dll_checksum_Gnf9zNG3MZgyDhvwJHhw3B
+    LED0_ON_Gnf9zNG3MZgyDhvwJHhw3B
+    LED0_OFF_Gnf9zNG3MZgyDhvwJHhw3B
+    LED1_ON_Gnf9zNG3MZgyDhvwJHhw3B
+    LED1_OFF_Gnf9zNG3MZgyDhvwJHhw3B
+    LED2_ON_Gnf9zNG3MZgyDhvwJHhw3B
+    LED2_OFF_Gnf9zNG3MZgyDhvwJHhw3B
+    LED3_ON_Gnf9zNG3MZgyDhvwJHhw3B
+    LED3_OFF_Gnf9zNG3MZgyDhvwJHhw3B
+    ADC_userGetAdc_Gnf9zNG3MZgyDhvwJHhw3B
+    get_checksum_source_info

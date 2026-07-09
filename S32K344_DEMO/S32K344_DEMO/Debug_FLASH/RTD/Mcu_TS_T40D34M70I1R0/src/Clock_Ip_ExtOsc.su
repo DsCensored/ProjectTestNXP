@@ -1,0 +1,9 @@
+../RTD/Mcu_TS_T40D34M70I1R0/src/Clock_Ip_ExtOsc.c:153:13:Clock_Ip_ExternalOscillatorEmpty	8	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Clock_Ip_ExtOsc.c:160:13:Clock_Ip_ResetFxoscOsconBypEocvGmSel	40	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Clock_Ip_ExtOsc.c:200:13:Clock_Ip_SetFxoscOsconBypEocvGmSel	16	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Clock_Ip_ExtOsc.c:243:13:Clock_Ip_CompleteFxoscOsconBypEocvGmSel	40	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Clock_Ip_ExtOsc.c:304:13:Clock_Ip_EnableFxoscOsconBypEocvGmSel	16	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Clock_Ip_ExtOsc.c:435:13:Clock_Ip_ResetSxoscOsconEocvCurrPrgSfCurrPrgCompGmSel	16	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Clock_Ip_ExtOsc.c:457:13:Clock_Ip_SetSxoscOsconEocvCurrPrgSfCurrPrgCompGmSel	16	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Clock_Ip_ExtOsc.c:494:13:Clock_Ip_CompleteSxoscOsconEocvCurrPrgSfCurrPrgCompGmSel	40	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Clock_Ip_ExtOsc.c:547:13:Clock_Ip_EnableSxoscOsconEocvCurrPrgSfCurrPrgCompGmSel	8	static

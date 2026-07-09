@@ -1,0 +1,11 @@
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip.c:373:13:Power_Ip_PrepareSocStandby	16	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip.c:433:6:Power_Ip_SetMode	24	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip.c:536:24:Power_Ip_GetPreviousMode	16	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip.c:599:20:Power_Ip_GetResetReason	16	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip.c:655:23:Power_Ip_GetResetRawValue	16	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip.c:674:6:Power_Ip_Init	16	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip.c:757:6:Power_Ip_InstallNotificationsCallback	8	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip.c:774:6:Power_Ip_EnableSleepOnExit	8	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip.c:787:6:Power_Ip_DisableSleepOnExit	8	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip.c:804:6:Power_Ip_EnableLastMile	16	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip.c:817:6:Power_Ip_DisableLastMile	8	static

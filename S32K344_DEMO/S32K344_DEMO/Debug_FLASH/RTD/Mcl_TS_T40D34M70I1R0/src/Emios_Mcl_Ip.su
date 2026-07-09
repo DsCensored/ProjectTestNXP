@@ -1,0 +1,12 @@
+../RTD/Mcl_TS_T40D34M70I1R0/src/Emios_Mcl_Ip.c:180:27:Emios_Mcl_Ip_Init	32	static
+../RTD/Mcl_TS_T40D34M70I1R0/src/Emios_Mcl_Ip.c:275:6:Emios_Mcl_Ip_EnableChannel	16	static
+../RTD/Mcl_TS_T40D34M70I1R0/src/Emios_Mcl_Ip.c:287:6:Emios_Mcl_Ip_DisableChannel	16	static
+../RTD/Mcl_TS_T40D34M70I1R0/src/Emios_Mcl_Ip.c:299:6:Emios_Mcl_Ip_ComparatorTransferEnable	16	static
+../RTD/Mcl_TS_T40D34M70I1R0/src/Emios_Mcl_Ip.c:312:6:Emios_Mcl_Ip_ComparatorTransferDisable	24	static
+../RTD/Mcl_TS_T40D34M70I1R0/src/Emios_Mcl_Ip.c:329:27:Emios_Mcl_Ip_Deinit	24	static
+../RTD/Mcl_TS_T40D34M70I1R0/src/Emios_Mcl_Ip.c:382:6:Emios_Mcl_Ip_SetReloadInterval	8	static
+../RTD/Mcl_TS_T40D34M70I1R0/src/Emios_Mcl_Ip.c:395:9:Emios_Mcl_Ip_ValidateChannel	16	static
+../RTD/Mcl_TS_T40D34M70I1R0/src/Emios_Mcl_Ip.c:412:27:Emios_Mcl_Ip_SetCounterBusPeriod	24	static
+../RTD/Mcl_TS_T40D34M70I1R0/src/Emios_Mcl_Ip.c:450:8:Emios_Mcl_Ip_GetCounterBusPeriod	16	static
+../RTD/Mcl_TS_T40D34M70I1R0/src/Emios_Mcl_Ip.c:483:6:Emios_Mcl_Ip_ConfigureGlobalTimebase	16	static
+../RTD/Mcl_TS_T40D34M70I1R0/src/Emios_Mcl_Ip.c:503:6:Emios_Mcl_Ip_SetClockMode	32	static

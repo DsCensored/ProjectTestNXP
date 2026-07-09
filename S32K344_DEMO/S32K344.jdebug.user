@@ -1,0 +1,28 @@
+
+
+GraphedExpression="PitTick", DisplayFormat=DISPLAY_FORMAT_DEC, Color=#e56a6f, Show=0
+GraphedExpression="BSW_uADC_PA11", Color=#35792b, Show=0
+GraphedExpression="AdcReadGroupResult[0]", DisplayFormat=DISPLAY_FORMAT_DEC, Color=#769dda, Show=0
+GraphedExpression="Tx_Cnt", Color=#b14f0d, Show=0
+OpenDocument="main.c", FilePath="D:/S32K344_DEMO2/S32K344_DEMO2/src/main.c", Line=148
+OpenDocument="Task.c", FilePath="D:/S32K344_DEMO2/S32K344_DEMO2/src/Task.c", Line=0
+OpenDocument="CAN_userCode.c", FilePath="D:/S32K344_DEMO2/S32K344_DEMO2/src/CAN/CAN_userCode.c", Line=27
+OpenToolbar="Debug", Floating=0, x=0, y=0
+OpenWindow="Registers 1", DockArea=BOTTOM, x=3, y=0, w=627, h=518, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, FilteredItems=[], RefreshRate=1
+OpenWindow="Source Files", DockArea=LEFT, x=0, y=0, w=345, h=776, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Disassembly", DockArea=RIGHT, x=0, y=1, w=576, h=160, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Memory 1", DockArea=BOTTOM, x=0, y=0, w=727, h=518, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, EditorAddress=0x2001FF58
+OpenWindow="Global Data", DockArea=BOTTOM, x=2, y=0, w=614, h=518, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Local Data", DockArea=RIGHT, x=0, y=0, w=576, h=303, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Data Sampling", DockArea=RIGHT, x=0, y=2, w=576, h=311, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, VisibleTab=0, UniformSampleSpacing=0
+OpenWindow="Console", DockArea=BOTTOM, x=1, y=0, w=589, h=518, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+SmartViewPlugin="", Page="", Toolbar="Hidden", Window="SmartView 1"
+TableHeader="Global Data", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Location";"Size";"Type";"Scope"], ColWidths=[322;373;100;100;100;100]
+TableHeader="Local Data", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Location";"Size";"Type";"Scope"], ColWidths=[171;296;100;100;473;100]
+TableHeader="Source Files", SortCol="File", SortOrder="ASCENDING", VisibleCols=["File";"Status";"Size";"#Insts";"Path"], ColWidths=[261;100;100;100;721]
+TableHeader="Data Sampling Table", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";" PitTick";" BSW_uADC_PA11";" AdcReadGroupResult[0]";" Tx_Cnt"], ColWidths=[100;100;100;100;100;100]
+TableHeader="Data Sampling Setup", SortCol="Expression", SortOrder="DESCENDING", VisibleCols=["Expression";"Type";"Value";"Min";"Max";"Average";"# Changes";"Min. Change";"Max. Change"], ColWidths=[179;190;100;100;100;100;100;118;107]
+TableHeader="Power Sampling", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"Ch 0"], ColWidths=[100;100;100]
+TableHeader="Registers 1", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Description"], ColWidths=[185;118;303]
+TableHeader="RegisterSelectionDialog", SortCol="None", SortOrder="ASCENDING", VisibleCols=[], ColWidths=[]
+TableHeader="TargetExceptionDialog", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Address";"Description"], ColWidths=[200;100;100;351]

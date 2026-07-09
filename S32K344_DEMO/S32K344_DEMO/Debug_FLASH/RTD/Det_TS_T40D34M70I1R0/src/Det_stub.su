@@ -1,0 +1,6 @@
+../RTD/Det_TS_T40D34M70I1R0/src/Det_stub.c:161:9:Det_TestLastReportError	32	static
+../RTD/Det_TS_T40D34M70I1R0/src/Det_stub.c:208:9:Det_TestLastReportRuntimeError	32	static
+../RTD/Det_TS_T40D34M70I1R0/src/Det_stub.c:257:9:Det_TestLastReportTransientFault	32	static
+../RTD/Det_TS_T40D34M70I1R0/src/Det_stub.c:299:9:Det_TestNoError	16	static
+../RTD/Det_TS_T40D34M70I1R0/src/Det_stub.c:338:9:Det_TestNoRuntimeError	16	static
+../RTD/Det_TS_T40D34M70I1R0/src/Det_stub.c:377:9:Det_TestNoTransientFault	16	static

@@ -1,0 +1,621 @@
+/******************************************************************************
+ *
+ *  ASAP2 file:     LED.a2l
+ *
+ * Code generation for model "LED".
+ *
+ * Model version              : 14.135
+ * Simulink Coder version : 9.8 (R2022b) 13-May-2022
+ * C source code generated on : Thu Jul  2 17:44:00 2026
+ * 
+ * Target selection: ert.tlc
+ * Embedded hardware selection: ARM Compatible->ARM 7
+ * Code generation objectives: Unspecified
+ * Validation result: Not run
+ *
+ * (add additional file header information here)
+ *
+ ******************************************************************************/
+
+ASAP2_VERSION  1 31   /* Version 1.31 */
+
+/begin PROJECT ProjectName "Project Comment Goes Here"
+  
+  /begin HEADER "Header Comments go here"
+    
+  /end HEADER
+  
+  
+  /begin MODULE ModuleName  "Module Comment Goes Here"
+    
+    /begin MOD_PAR "MOD PAR Comment Goes Here"
+      
+    /end MOD_PAR
+    
+    /begin MOD_COMMON  "Mod Common Comment Here" 
+      BYTE_ORDER     MSB_LAST
+    /end MOD_COMMON
+    
+    /begin RECORD_LAYOUT Scalar_BOOLEAN
+      FNC_VALUES  1 UBYTE ROW_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Scalar_UBYTE
+      FNC_VALUES  1 UBYTE ROW_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Scalar_BYTE
+      FNC_VALUES  1 SBYTE ROW_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Scalar_UWORD
+      FNC_VALUES  1 UWORD ROW_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Scalar_SWORD
+      FNC_VALUES 1 SWORD ROW_DIR DIRECT
+    /end RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Scalar_ULONG
+      FNC_VALUES  1 ULONG ROW_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Scalar_LONG
+      FNC_VALUES  1 SLONG ROW_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Scalar_FLOAT32_IEEE
+      FNC_VALUES  1 FLOAT32_IEEE ROW_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Scalar_FLOAT64_IEEE
+      FNC_VALUES  1 FLOAT64_IEEE ROW_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    
+    /begin RECORD_LAYOUT Lookup1D_BOOLEAN
+      FNC_VALUES  1 UBYTE ROW_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_X_BOOLEAN
+      AXIS_PTS_X  1 UBYTE INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_BYTE
+      FNC_VALUES  1 SBYTE ROW_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_X_BYTE
+      AXIS_PTS_X  1 SBYTE INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_UBYTE
+      FNC_VALUES  1 UBYTE ROW_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_X_UBYTE
+      AXIS_PTS_X  1 UBYTE INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_UWORD
+      FNC_VALUES  1 UWORD ROW_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_X_UWORD
+      AXIS_PTS_X  1 UWORD INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_WORD
+      FNC_VALUES  1 SWORD ROW_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_X_WORD
+      AXIS_PTS_X  1 SWORD INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_ULONG
+      FNC_VALUES  1 ULONG ROW_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_X_ULONG
+      AXIS_PTS_X  1 ULONG INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_SLONG
+      FNC_VALUES  1 SLONG ROW_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_X_LONG
+      AXIS_PTS_X  1 SLONG INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_FLOAT32_IEEE
+      FNC_VALUES  1 FLOAT32_IEEE ROW_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_X_FLOAT32_IEEE
+      AXIS_PTS_X  1 FLOAT32_IEEE INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_FLOAT64_IEEE
+      FNC_VALUES  1 FLOAT64_IEEE ROW_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup1D_X_FLOAT64_IEEE
+      AXIS_PTS_X  1 FLOAT64_IEEE INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_BOOLEAN
+      FNC_VALUES  1 UBYTE ROW_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_X_BOOLEAN
+      AXIS_PTS_X  1 UBYTE INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT    
+    
+    /begin RECORD_LAYOUT Lookup2D_UBYTE
+      FNC_VALUES  1 UBYTE ROW_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_X_UBYTE
+      AXIS_PTS_X  1 UBYTE INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_BYTE
+      FNC_VALUES  1 SBYTE ROW_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_X_BYTE
+      AXIS_PTS_X  1 SBYTE INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_UWORD
+      FNC_VALUES  1 UWORD ROW_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_X_UWORD
+      AXIS_PTS_X  1 UWORD INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_WORD
+      FNC_VALUES  1 SWORD ROW_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_X_WORD
+      AXIS_PTS_X  1 SWORD INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_ULONG
+      FNC_VALUES  1 ULONG ROW_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_X_ULONG
+      AXIS_PTS_X  1 ULONG INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_LONG
+      FNC_VALUES  1 SLONG ROW_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_X_LONG
+      AXIS_PTS_X  1 SLONG INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_FLOAT32_IEEE
+      FNC_VALUES  1 FLOAT32_IEEE ROW_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_X_FLOAT32_IEEE
+      AXIS_PTS_X 1 FLOAT32_IEEE INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_FLOAT64_IEEE
+      FNC_VALUES  1  FLOAT64_IEEE ROW_DIR DIRECT
+    /end   RECORD_LAYOUT
+    
+    /begin RECORD_LAYOUT Lookup2D_X_FLOAT64_IEEE
+      AXIS_PTS_X 1 FLOAT64_IEEE INDEX_INCR DIRECT
+    /end   RECORD_LAYOUT
+    
+    
+    
+    /begin MEASUREMENT
+      /* Name                   */      CAN_msgCtrlCmd.ProtocolMode
+      /* Long identifier        */      ""
+      /* Data type              */      UBYTE
+      /* Conversion method      */      LED_CM_uint8
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      0
+      /* Upper limit            */      255
+      ECU_ADDRESS                       0x0000 /* @ECU_Address@CAN_msgCtrlCmd.ProtocolMode@ */
+    /end MEASUREMENT
+    
+    /begin MEASUREMENT
+      /* Name                   */      CAN_msgCtrlCmd.Extended
+      /* Long identifier        */      ""
+      /* Data type              */      UBYTE
+      /* Conversion method      */      LED_CM_uint8
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      0
+      /* Upper limit            */      255
+      ECU_ADDRESS                       0x0000 /* @ECU_Address@CAN_msgCtrlCmd.Extended@ */
+    /end MEASUREMENT
+    
+    /begin MEASUREMENT
+      /* Name                   */      CAN_msgCtrlCmd.Length
+      /* Long identifier        */      ""
+      /* Data type              */      UBYTE
+      /* Conversion method      */      LED_CM_uint8
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      0
+      /* Upper limit            */      255
+      ECU_ADDRESS                       0x0000 /* @ECU_Address@CAN_msgCtrlCmd.Length@ */
+    /end MEASUREMENT
+    
+    /begin MEASUREMENT
+      /* Name                   */      CAN_msgCtrlCmd.Remote
+      /* Long identifier        */      ""
+      /* Data type              */      UBYTE
+      /* Conversion method      */      LED_CM_uint8
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      0
+      /* Upper limit            */      255
+      ECU_ADDRESS                       0x0000 /* @ECU_Address@CAN_msgCtrlCmd.Remote@ */
+    /end MEASUREMENT
+    
+    /begin MEASUREMENT
+      /* Name                   */      CAN_msgCtrlCmd.Error
+      /* Long identifier        */      ""
+      /* Data type              */      UBYTE
+      /* Conversion method      */      LED_CM_uint8
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      0
+      /* Upper limit            */      255
+      ECU_ADDRESS                       0x0000 /* @ECU_Address@CAN_msgCtrlCmd.Error@ */
+    /end MEASUREMENT
+    
+    /begin MEASUREMENT
+      /* Name                   */      CAN_msgCtrlCmd.BRS
+      /* Long identifier        */      ""
+      /* Data type              */      UBYTE
+      /* Conversion method      */      LED_CM_uint8
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      0
+      /* Upper limit            */      255
+      ECU_ADDRESS                       0x0000 /* @ECU_Address@CAN_msgCtrlCmd.BRS@ */
+    /end MEASUREMENT
+    
+    /begin MEASUREMENT
+      /* Name                   */      CAN_msgCtrlCmd.ESI
+      /* Long identifier        */      ""
+      /* Data type              */      UBYTE
+      /* Conversion method      */      LED_CM_uint8
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      0
+      /* Upper limit            */      255
+      ECU_ADDRESS                       0x0000 /* @ECU_Address@CAN_msgCtrlCmd.ESI@ */
+    /end MEASUREMENT
+    
+    /begin MEASUREMENT
+      /* Name                   */      CAN_msgCtrlCmd.DLC
+      /* Long identifier        */      ""
+      /* Data type              */      UBYTE
+      /* Conversion method      */      LED_CM_uint8
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      0
+      /* Upper limit            */      255
+      ECU_ADDRESS                       0x0000 /* @ECU_Address@CAN_msgCtrlCmd.DLC@ */
+    /end MEASUREMENT
+    
+    /begin MEASUREMENT
+      /* Name                   */      CAN_msgCtrlCmd.ID
+      /* Long identifier        */      ""
+      /* Data type              */      ULONG
+      /* Conversion method      */      LED_CM_uint32
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      0
+      /* Upper limit            */      4294967295
+      ECU_ADDRESS                       0x0000 /* @ECU_Address@CAN_msgCtrlCmd.ID@ */
+    /end MEASUREMENT
+    
+    /begin MEASUREMENT
+      /* Name                   */      CAN_msgCtrlCmd.Reserved
+      /* Long identifier        */      ""
+      /* Data type              */      ULONG
+      /* Conversion method      */      LED_CM_uint32
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      0
+      /* Upper limit            */      4294967295
+      ECU_ADDRESS                       0x0000 /* @ECU_Address@CAN_msgCtrlCmd.Reserved@ */
+    /end MEASUREMENT
+    
+    /begin MEASUREMENT
+      /* Name                   */      CAN_msgCtrlCmd.Timestamp
+      /* Long identifier        */      ""
+      /* Data type              */      FLOAT64_IEEE
+      /* Conversion method      */      LED_CM_double
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      -1.7E+308
+      /* Upper limit            */      1.7E+308
+      ECU_ADDRESS                       0x0000 /* @ECU_Address@CAN_msgCtrlCmd.Timestamp@ */
+    /end MEASUREMENT
+    
+    /begin MEASUREMENT
+      /* Name                   */      CAN_msgCtrlCmd.Data
+      /* Long identifier        */      ""
+      /* Data type              */      UBYTE
+      /* Conversion method      */      LED_CM_uint8
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      0
+      /* Upper limit            */      255
+      /* Array Size             */
+      ARRAY_SIZE                        64
+      ECU_ADDRESS                       0x0000 /* @ECU_Address@CAN_msgCtrlCmd.Data@ */
+    /end MEASUREMENT
+    
+    
+    /begin MEASUREMENT
+      /* Name                   */      CAN_msgSts.ProtocolMode
+      /* Long identifier        */      ""
+      /* Data type              */      UBYTE
+      /* Conversion method      */      LED_CM_uint8
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      0
+      /* Upper limit            */      255
+      ECU_ADDRESS                       0x0000 /* @ECU_Address@CAN_msgSts.ProtocolMode@ */
+    /end MEASUREMENT
+    
+    /begin MEASUREMENT
+      /* Name                   */      CAN_msgSts.Extended
+      /* Long identifier        */      ""
+      /* Data type              */      UBYTE
+      /* Conversion method      */      LED_CM_uint8
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      0
+      /* Upper limit            */      255
+      ECU_ADDRESS                       0x0000 /* @ECU_Address@CAN_msgSts.Extended@ */
+    /end MEASUREMENT
+    
+    /begin MEASUREMENT
+      /* Name                   */      CAN_msgSts.Length
+      /* Long identifier        */      ""
+      /* Data type              */      UBYTE
+      /* Conversion method      */      LED_CM_uint8
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      0
+      /* Upper limit            */      255
+      ECU_ADDRESS                       0x0000 /* @ECU_Address@CAN_msgSts.Length@ */
+    /end MEASUREMENT
+    
+    /begin MEASUREMENT
+      /* Name                   */      CAN_msgSts.Remote
+      /* Long identifier        */      ""
+      /* Data type              */      UBYTE
+      /* Conversion method      */      LED_CM_uint8
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      0
+      /* Upper limit            */      255
+      ECU_ADDRESS                       0x0000 /* @ECU_Address@CAN_msgSts.Remote@ */
+    /end MEASUREMENT
+    
+    /begin MEASUREMENT
+      /* Name                   */      CAN_msgSts.Error
+      /* Long identifier        */      ""
+      /* Data type              */      UBYTE
+      /* Conversion method      */      LED_CM_uint8
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      0
+      /* Upper limit            */      255
+      ECU_ADDRESS                       0x0000 /* @ECU_Address@CAN_msgSts.Error@ */
+    /end MEASUREMENT
+    
+    /begin MEASUREMENT
+      /* Name                   */      CAN_msgSts.BRS
+      /* Long identifier        */      ""
+      /* Data type              */      UBYTE
+      /* Conversion method      */      LED_CM_uint8
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      0
+      /* Upper limit            */      255
+      ECU_ADDRESS                       0x0000 /* @ECU_Address@CAN_msgSts.BRS@ */
+    /end MEASUREMENT
+    
+    /begin MEASUREMENT
+      /* Name                   */      CAN_msgSts.ESI
+      /* Long identifier        */      ""
+      /* Data type              */      UBYTE
+      /* Conversion method      */      LED_CM_uint8
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      0
+      /* Upper limit            */      255
+      ECU_ADDRESS                       0x0000 /* @ECU_Address@CAN_msgSts.ESI@ */
+    /end MEASUREMENT
+    
+    /begin MEASUREMENT
+      /* Name                   */      CAN_msgSts.DLC
+      /* Long identifier        */      ""
+      /* Data type              */      UBYTE
+      /* Conversion method      */      LED_CM_uint8
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      0
+      /* Upper limit            */      255
+      ECU_ADDRESS                       0x0000 /* @ECU_Address@CAN_msgSts.DLC@ */
+    /end MEASUREMENT
+    
+    /begin MEASUREMENT
+      /* Name                   */      CAN_msgSts.ID
+      /* Long identifier        */      ""
+      /* Data type              */      ULONG
+      /* Conversion method      */      LED_CM_uint32
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      0
+      /* Upper limit            */      4294967295
+      ECU_ADDRESS                       0x0000 /* @ECU_Address@CAN_msgSts.ID@ */
+    /end MEASUREMENT
+    
+    /begin MEASUREMENT
+      /* Name                   */      CAN_msgSts.Reserved
+      /* Long identifier        */      ""
+      /* Data type              */      ULONG
+      /* Conversion method      */      LED_CM_uint32
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      0
+      /* Upper limit            */      4294967295
+      ECU_ADDRESS                       0x0000 /* @ECU_Address@CAN_msgSts.Reserved@ */
+    /end MEASUREMENT
+    
+    /begin MEASUREMENT
+      /* Name                   */      CAN_msgSts.Timestamp
+      /* Long identifier        */      ""
+      /* Data type              */      FLOAT64_IEEE
+      /* Conversion method      */      LED_CM_double
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      -1.7E+308
+      /* Upper limit            */      1.7E+308
+      ECU_ADDRESS                       0x0000 /* @ECU_Address@CAN_msgSts.Timestamp@ */
+    /end MEASUREMENT
+    
+    /begin MEASUREMENT
+      /* Name                   */      CAN_msgSts.Data
+      /* Long identifier        */      ""
+      /* Data type              */      UBYTE
+      /* Conversion method      */      LED_CM_uint8
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      0
+      /* Upper limit            */      255
+      /* Array Size             */
+      ARRAY_SIZE                        64
+      ECU_ADDRESS                       0x0000 /* @ECU_Address@CAN_msgSts.Data@ */
+    /end MEASUREMENT
+    
+    
+    /begin MEASUREMENT
+      /* Name                   */      BSW_uADC_PA11
+      /* Long identifier        */      ""
+      /* Data type              */      FLOAT32_IEEE
+      /* Conversion method      */      LED_CM_single
+      /* Resolution (Not used)  */      0
+      /* Accuracy (Not used)    */      0
+      /* Lower limit            */      -3.4E+38
+      /* Upper limit            */      3.4E+38
+      ECU_ADDRESS                       0x0000 /* @ECU_Address@BSW_uADC_PA11@ */
+    /end MEASUREMENT
+    
+    /begin COMPU_METHOD
+      /* Name of CompuMethod    */      LED_CM_uint8
+      /* Long identifier        */      "Q = V"
+      /* Conversion Type        */      RAT_FUNC
+      /* Format                 */      "%3.0"
+      /* Units                  */      ""
+      /* Coefficients           */      COEFFS 0 1 0 0 0 1
+    /end COMPU_METHOD
+    
+    /begin COMPU_METHOD
+      /* Name of CompuMethod    */      LED_CM_uint32
+      /* Long identifier        */      "Q = V"
+      /* Conversion Type        */      RAT_FUNC
+      /* Format                 */      "%10.0"
+      /* Units                  */      ""
+      /* Coefficients           */      COEFFS 0 1 0 0 0 1
+    /end COMPU_METHOD
+    
+    /begin COMPU_METHOD
+      /* Name of CompuMethod    */      LED_CM_double
+      /* Long identifier        */      "Q = V"
+      /* Conversion Type        */      RAT_FUNC
+      /* Format                 */      "%15.10"
+      /* Units                  */      ""
+      /* Coefficients           */      COEFFS 0 1 0 0 0 1
+    /end COMPU_METHOD
+    
+    /begin COMPU_METHOD
+      /* Name of CompuMethod    */      LED_CM_single
+      /* Long identifier        */      "Q = V"
+      /* Conversion Type        */      RAT_FUNC
+      /* Format                 */      "%8.6"
+      /* Units                  */      ""
+      /* Coefficients           */      COEFFS 0 1 0 0 0 1
+    /end COMPU_METHOD
+    
+    /begin GROUP
+      /* Name                   */       LED
+      /* Long identifier        */       "LED"
+      /* Root                    */       ROOT
+      /begin SUB_GROUP
+        CAN_msgCtrlCmd
+        CAN_msgSts
+      /end SUB_GROUP
+      /begin REF_MEASUREMENT
+        BSW_uADC_PA11
+      /end REF_MEASUREMENT
+    /end GROUP
+    
+    /begin GROUP
+      /* Name                   */       CAN_msgCtrlCmd
+      /* Long identifier        */       ""
+      /begin REF_MEASUREMENT
+        CAN_msgCtrlCmd.BRS
+        CAN_msgCtrlCmd.DLC
+        CAN_msgCtrlCmd.Data
+        CAN_msgCtrlCmd.ESI
+        CAN_msgCtrlCmd.Error
+        CAN_msgCtrlCmd.Extended
+        CAN_msgCtrlCmd.ID
+        CAN_msgCtrlCmd.Length
+        CAN_msgCtrlCmd.ProtocolMode
+        CAN_msgCtrlCmd.Remote
+        CAN_msgCtrlCmd.Reserved
+        CAN_msgCtrlCmd.Timestamp
+      /end REF_MEASUREMENT
+    /end GROUP
+    
+    /begin GROUP
+      /* Name                   */       CAN_msgSts
+      /* Long identifier        */       ""
+      /begin REF_MEASUREMENT
+        CAN_msgSts.BRS
+        CAN_msgSts.DLC
+        CAN_msgSts.Data
+        CAN_msgSts.ESI
+        CAN_msgSts.Error
+        CAN_msgSts.Extended
+        CAN_msgSts.ID
+        CAN_msgSts.Length
+        CAN_msgSts.ProtocolMode
+        CAN_msgSts.Remote
+        CAN_msgSts.Reserved
+        CAN_msgSts.Timestamp
+      /end REF_MEASUREMENT
+    /end GROUP
+    
+    
+  /end MODULE
+  
+  
+/end PROJECT
+/* (add any file trailer comments here) */
+/* EOF LED.a2l */

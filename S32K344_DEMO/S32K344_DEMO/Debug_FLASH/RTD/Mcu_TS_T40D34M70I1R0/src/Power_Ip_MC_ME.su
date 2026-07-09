@@ -1,0 +1,15 @@
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip_MC_ME.c:234:20:Power_Ip_MC_ME_WriteControlKeys	0	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip_MC_ME.c:255:20:Power_Ip_MC_ME_TriggerModeUpdate	8	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip_MC_ME.c:273:20:Power_Ip_MC_ME_TriggerPartitionUpdate	40	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip_MC_ME.c:318:20:Power_Ip_MC_ME_TriggerCofbUpdate	40	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip_MC_ME.c:361:20:Power_Ip_MC_ME_TriggerCoreUpdate	40	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip_MC_ME.c:402:13:Power_Ip_MC_ME_ConfigurePartitionClock	48	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip_MC_ME.c:455:13:Power_Ip_MC_ME_ConfigureCOFB	48	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip_MC_ME.c:514:13:Power_Ip_MC_ME_ConfigureCore	48	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip_MC_ME.c:613:6:Power_Ip_MC_ME_ConfigCoreCOFBClock	24	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip_MC_ME.c:662:6:Power_Ip_MC_ME_EnablePartitionClock	24	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip_MC_ME.c:703:6:Power_Ip_MC_ME_DisablePartitionClock	24	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip_MC_ME.c:734:6:Power_Ip_MC_ME_SocTriggerResetEvent	16	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip_MC_ME.c:765:6:Power_Ip_MC_ME_CoreStandbyEntry	16	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip_MC_ME.c:804:6:Power_Ip_MC_ME_SocStandbyEntry	16	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip_MC_ME.c:850:24:Power_Ip_MC_ME_GetPreviousMode	8	static

@@ -1,0 +1,1254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/ci/19700101 http://schema.mathworks.com/mf0/sl_modelref_info/R2022b http://schema.mathworks.com/mf0/slexec_mm_sto/R2022b_202202091112 http://schema.mathworks.com/mf0/sltp_mm/R2022b_202203181029">
+  <ModelRefInfoRepo.ModelRefInfoRoot type="ModelRefInfoRepo.ModelRefInfoRoot" uuid="bf174a15-c93f-4f14-ba15-8cf9b93032af">
+    <JITEngines>srAHUBf38rZqKmLlfzXaFWD</JITEngines>
+    <calibrationData type="ModelRefInfoRepo.CalibrationData" uuid="2df33992-4b10-4a54-9b22-e5cba6cff5f1">
+      <ModelName>CSP</ModelName>
+      <RootIOData>[{&quot;Name&quot;:&quot;BSW_uADC_PA11&quot;,&quot;Profile&quot;:&quot;&quot;}]</RootIOData>
+    </calibrationData>
+    <childModelRefInfo type="ModelRefInfoRepo.ChildModelRefInfo" uuid="7d22aada-1af1-4cb3-b1eb-43bb87e6845b">
+      <modelName>CSP</modelName>
+      <modelPath>CSP</modelPath>
+    </childModelRefInfo>
+    <dataDictionary>LED.sldd</dataDictionary>
+    <dataDictionarySet>LED.sldd</dataDictionarySet>
+    <dataDictionarySetForDataTypeCheck>LED.sldd</dataDictionarySetForDataTypeCheck>
+    <dataTransferInfos>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAAAAAABAAAAAQAAAAAAAAAFAAQAAQAAAAEAAAAAAAAA</dataTransferInfos>
+    <defaultsCMapping>{&quot;Inports&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;Outports&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;ParameterArguments&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;LocalParameters&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;GlobalParameters&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;InternalData&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;SharedLocalDataStores&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;GlobalDataStores&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;Constants&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;DataTransfers&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;ModelData&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;InitializeTerminate&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;Execution&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;SharedUtility&quot;:&quot;{\&quot;Name\&quot;:\&quot;UtilityFunction\&quot;,\&quot;Checksum\&quot;:\&quot;3819126087\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;}</defaultsCMapping>
+    <fundamentalSampleTimePeriod>.01</fundamentalSampleTimePeriod>
+    <globalVariables>#BSW_uADC_PA11#LED.sldd#</globalVariables>
+    <hasBlockWithPeriodicDiscreteSampleTime>true</hasBlockWithPeriodicDiscreteSampleTime>
+    <hasBwsAccessed>true</hasBwsAccessed>
+    <hasBwsAccessedByAnyModel>true</hasBwsAccessedByAnyModel>
+    <hasStatesModifiedInOutputUpdate>true</hasStatesModifiedInOutputUpdate>
+    <inports type="ModelRefInfoRepo.InportInformation" uuid="bb268af5-0266-48eb-ad20-09a4cddfefc4">
+      <isNotDerivPort>true</isNotDerivPort>
+      <RTWSignalIdentifier>BSW_uADC_PA11</RTWSignalIdentifier>
+      <compiledSignalLabel>BSW_uADC_PA11</compiledSignalLabel>
+      <designMax>inf</designMax>
+      <designMin>-inf</designMin>
+      <indexType>2</indexType>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+        <period>.01</period>
+        <priority>40</priority>
+        <rateIdx>0</rateIdx>
+      </rateInfos>
+      <rawRTWStorageClass>ImportedExtern</rawRTWStorageClass>
+      <resolvedSignalObject>AAFJTQAAAAAOAAAAiAAAAAYAAAAIAAAAEQAAAAAAAAABAAAAAAAAAAEABABNQ09TAQAAAA8AAABTaW11bGluay5TaWduYWwADgAAAEgAAAAGAAAACAAAAA0AAAAAAAAABQAAAAgAAAAGAAAAAQAAAAEAAAAAAAAABgAAABgAAAAAAADdAgAAAAEAAAABAAAAAQAAAAEAAAAOAAAAQA4AAAYAAAAIAAAACQAAAAAAAAAFAAAACAAAAAEAAAAQDgAAAQAAAAAAAAACAAAAEA4AAAABSU0AAAAADgAAAGANAAAGAAAACAAAAAIAAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAABQAEAAUAAAABAAAABQAAAE1DT1MAAAAADgAAABgNAAAGAAAACAAAABEAAAAAAAAAAQAAAAAAAAABAAQATUNPUwEAAAANAAAARmlsZVdyYXBwZXJfXwAAAA4AAADYDAAABgAAAAgAAAABAAAAAAAAAAUAAAAIAAAAEgAAAAEAAAABAAAAAAAAAA4AAAD4AQAABgAAAAgAAAAJAAAAAAAAAAUAAAAIAAAAyAEAAAEAAAABAAAAAAAAAAIAAADIAQAABAAAAA8AAADAAAAA4AAAAOAAAAAQAQAAuAEAAMgBAAAAAAAAAAAAAENvZGVySW5mbwBEZXNjcmlwdGlvbgBEYXRhVHlwZQBNaW4ATWF4AERvY1VuaXRzAERpbWVuc2lvbnMARGltZW5zaW9uc01vZGUAQ29tcGxleGl0eQBTYW1wbGVUaW1lAFNhbXBsaW5nTW9kZQBJbml0aWFsVmFsdWUATG9nZ2luZ0luZm8AU2lnbmFsAFNpbXVsaW5rAAAAAAAAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAA0AAAABAAAAAQAAAAAAAAACAAAAAQAAAAEAAAADAAAAAQAAAAIAAAAEAAAAAQAAAAMAAAAFAAAAAQAAAAQAAAAGAAAAAQAAAAUAAAAHAAAAAQAAAAYAAAAIAAAAAQAAAAcAAAAJAAAAAQAAAAgAAAAKAAAAAQAAAAkAAAALAAAAAQAAAAoAAAAMAAAAAQAAAAsAAAANAAAAAQAAAAwAAAAAAAAAAAAAAAAAAAAAAAAADgAAAAAAAAAOAAAAmAQAAAYAAAAIAAAAEQAAAAAAAAABAAAAAAAAAAEAAAAGAAAAaGFuZGxlAAABAAAAEgAAAFNpbXVsaW5rLkNvZGVySW5mbwAAAAAAAA4AAABIBAAABgAAAAgAAAABAAAAAAAAAAUAAAAIAAAABwAAAAEAAAABAAAAAAAAAA4AAABgAgAABgAAAAgAAAAJAAAAAAAAAAUAAAAIAAAAMAIAAAEAAAABAAAAAAAAAAIAAAAwAgAAAQAAABIAAAAYAQAASAEAAFABAACYAQAAKAIAADACAAAAAAAAAAAAAFNpbXVsaW5rAENvZGVySW5mbwBIYXNDb2RlckluZm8AU3RvcmFnZUNsYXNzAEltcG9ydGVkRXh0ZXJuAFR5cGVRdWFsaWZpZXIAAEFsaWFzAEFsaWdubWVudABJc0NTQ1BhY2thZ2VPdmVycmlkZGVuAENTQ1BhY2thZ2VOYW1lAFBhcmFtZXRlck9yU2lnbmFsAFNpZ25hbABDdXN0b21TdG9yYWdlQ2xhc3MARGVmYXVsdABDdXN0b21BdHRyaWJ1dGVzAFNpbXVsaW5rQ1NDAEF0dHJpYkNsYXNzX1NpbXVsaW5rX0RlZmF1bHQAAAAAAAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAAAAAAEQAAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAKAAAAAwAAAAEAAAAAAAAABAAAAAAAAAAFAAAABgAAAAAAAAAHAAAACAAAAAEAAAABAAAACQAAAAEAAAACAAAACgAAAAEAAAADAAAACwAAAAAAAAABAAAADAAAAAAAAAANAAAADgAAAAAAAAAPAAAAEAAAAAEAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAeAAAAAYAAAAIAAAAAQAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAOAAAASAAAAAYAAAAIAAAADQAAAAAAAAAFAAAACAAAAAUAAAABAAAAAQAAAAAAAAAGAAAAFAAAAAAAAN0CAAAAAQAAAAEAAAABAAAAAAAAAA4AAAAwAAAABgAAAAgAAAAJAgAAAAAAAAUAAAAIAAAAAQAAAAEAAAABAAAAAAAAAAIAAQABAAAADgAAADAAAAAGAAAACAAAAAQAAAAAAAAABQAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAEAAAAAAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAAPC/DgAAADAAAAAGAAAACAAAAAkCAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAAAgABAAAAAAAOAAAASAAAAAYAAAAIAAAADQAAAAAAAAAFAAAACAAAAAUAAAABAAAAAQAAAAAAAAAGAAAAFAAAAAAAAN0CAAAAAQAAAAEAAAACAAAAAAAAAA4AAAAwAAAABgAAAAgAAAAEAAAAAAAAAAUAAAAIAAAAAAAAAAAAAAABAAAAAAAAABAAAAAAAAAADgAAADgAAAAGAAAACAAAAAQAAAAAAAAABQAAAAgAAAABAAAABgAAAAEAAAAAAAAAEAAAAAYAAABzaW5nbGUAAA4AAAAwAAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAAAAAAAAAAABAAAAAAAAAAkAAAAAAAAADgAAADAAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAAAAAAAAAAAAAEAAAAAAAAACQAAAAAAAAAOAAAAMAAAAAYAAAAIAAAABAAAAAAAAAAFAAAACAAAAAAAAAAAAAAAAQAAAAAAAAAQAAAAAAAAAA4AAAA4AAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAQAAAAEAAAABAAAAAAAAAAkAAAAIAAAAAAAAAAAA8L8OAAAAMAAAAAYAAAAIAAAABAAAAAAAAAAFAAAACAAAAAEAAAAEAAAAAQAAAAAAAAAQAAQAYXV0bw4AAAAwAAAABgAAAAgAAAAEAAAAAAAAAAUAAAAIAAAAAQAAAAQAAAABAAAAAAAAABAABABhdXRvDgAAADgAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAACQAAAAgAAAAAAAAAAADwvw4AAAAwAAAABgAAAAgAAAAEAAAAAAAAAAUAAAAIAAAAAQAAAAQAAAABAAAAAAAAABAABABhdXRvDgAAADAAAAAGAAAACAAAAAQAAAAAAAAABQAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAEAAAAAAAAAAOAAAA4AEAAAYAAAAIAAAAEQAAAAAAAAABAAAAAAAAAAEAAAAGAAAAaGFuZGxlAAABAAAAFAAAAFNpbXVsaW5rLkxvZ2dpbmdJbmZvAAAAAA4AAACQAQAABgAAAAgAAAABAAAAAAAAAAUAAAAIAAAAAgAAAAEAAAABAAAAAAAAAA4AAADgAAAABgAAAAgAAAAJAAAAAAAAAAUAAAAIAAAAsAAAAAEAAAABAAAAAAAAAAIAAACwAAAAAQAAAAIAAABAAAAAYAAAAGgAAACYAAAAqAAAALAAAAAAAAAAAAAAAFNpbXVsaW5rAExvZ2dpbmdJbmZvAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAeAAAAAYAAAAIAAAAAQAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAOAAAASAAAAAYAAAAIAAAADQAAAAAAAAAFAAAACAAAAAUAAAABAAAAAQAAAAAAAAAGAAAAFAAAAAAAAN0CAAAAAQAAAAEAAAABAAAAAAAAAA4AAACoAAAABgAAAAgAAAABAAAAAAAAAAUAAAAIAAAAAgAAAAEAAAABAAAAAAAAAA4AAAA4AAAABgAAAAgAAAACAAAAAAAAAAUAAAAIAAAAAQAAAAAAAAABAAAAAAAAAAUABAABAAAAAQAAAAAAAAAOAAAAOAAAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAEAAAAAAAAAAQAAAAAAAAAFAAQAAQAAAAEAAAAAAAAADgAAADgAAAAGAAAACAAAAAwAAAAAAAAABQAAAAgAAAACAAAAAQAAAAEAAAAAAAAABQAAAAgAAAAAAAAAAAAAAA4AAACoAAAABgAAAAgAAAABAAAAAAAAAAUAAAAIAAAAAgAAAAEAAAABAAAAAAAAAA4AAAA4AAAABgAAAAgAAAACAAAAAAAAAAUAAAAIAAAAAQAAAAAAAAABAAAAAAAAAAUABAABAAAAAQAAAAAAAAAOAAAAOAAAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAEAAAAAAAAAAQAAAAAAAAAFAAQAAQAAAAEAAAAAAAAADgAAAJgAAAAGAAAACAAAAAkAAAAAAAAABQAAAAgAAAABAAAAaAAAAAEAAAAAAAAAAgAAAGgAAAAAAUlNAAAAAA4AAABYAAAABgAAAAgAAAACAAAAAAAAAAUAAAAIAAAAAQAAAAEAAAABAAAAAAAAAAUABAAHAAAAAQAAAA4AAABNQ09TAAAAaGFuZGxlAAAADgAAAAAAAAAOAAAAAAAAAA==</resolvedSignalObject>
+      <resolvedSignalObjectSource>LED.sldd</resolvedSignalObjectSource>
+      <resolvedSignalObjectType>2</resolvedSignalObjectType>
+      <autosarInfo type="ModelRefInfoRepo.AUTOSARInportInfo" uuid="7427abcc-5624-4bed-94b7-d6e736df817c"/>
+      <executionInterface type="ModelRefInfoRepo.InputExecutionInterface" uuid="15babc41-b29d-4083-bd18-c09e27d5b307"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="892a5d39-7ffe-415e-98db-4af9ce9a4721"/>
+    </inports>
+    <isBdInSimModeForSimCodegenVariants>false</isBdInSimModeForSimCodegenVariants>
+    <isInlineParamsOn>true</isInlineParamsOn>
+    <isOrigInportVirtualBus>false</isOrigInportVirtualBus>
+    <loggingSaveFormat>2</loggingSaveFormat>
+    <maxFreqHz>-1.0</maxFreqHz>
+    <numDataInputPorts>1</numDataInputPorts>
+    <numLoggableJacobianDStates>0</numLoggableJacobianDStates>
+    <origInportBusType></origInportBusType>
+    <removeResetFunc>true</removeResetFunc>
+    <runtimeNonFcnCallRateInfos type="ModelRefInfoRepo.RateInfo">
+      <compiled>true</compiled>
+      <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+      <period>.01</period>
+      <priority>40</priority>
+      <rateIdx>0</rateIdx>
+    </runtimeNonFcnCallRateInfos>
+    <sampleTimeInheritanceRule>2</sampleTimeInheritanceRule>
+    <solverStatusFlags>323</solverStatusFlags>
+    <timingAndTaskingRegistry>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;slexec_sto version=&quot;1.1&quot; packageUris=&quot;http://schema.mathworks.com/mf0/slexec_mm_sto/R2022b_202202091112&quot;&gt;
+  &lt;sto.Registry type=&quot;sto.Registry&quot; uuid=&quot;30c3c954-12fe-4ef0-9625-35cb607e59f1&quot;&gt;
+    &lt;executionSpec&gt;Undetermined&lt;/executionSpec&gt;
+    &lt;clockRegistry type=&quot;sto.ClockRegistry&quot; uuid=&quot;a4cbf0ab-1e34-444d-b795-444704300771&quot;&gt;
+      &lt;clocks type=&quot;sto.Timer&quot; uuid=&quot;1a663830-c220-4bd8-8a09-9587531a8a5a&quot;&gt;
+        &lt;clockTickConstraint&gt;PeriodicWithFixedResolution&lt;/clockTickConstraint&gt;
+        &lt;computedFundamentalDiscretePeriod&gt;.01&lt;/computedFundamentalDiscretePeriod&gt;
+        &lt;resolution&gt;.01&lt;/resolution&gt;
+        &lt;timeAdvanceMode&gt;FixedStep&lt;/timeAdvanceMode&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;c06f0974-19c3-462b-b7ba-bc190aa60bc0&quot;&gt;
+          &lt;annotation&gt;D1&lt;/annotation&gt;
+          &lt;colorIndex&gt;2&lt;/colorIndex&gt;
+          &lt;description&gt;离散 1&lt;/description&gt;
+          &lt;taskId&gt;_task0&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;d242e6dc-bb23-4c24-8001-8a003650ef4f&quot;&gt;
+            &lt;period&gt;.01&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;baseRate type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;5605a6e4-e2f3-4b98-804e-6b426150b397&quot;&gt;
+          &lt;annotation&gt;D1&lt;/annotation&gt;
+          &lt;colorIndex&gt;2&lt;/colorIndex&gt;
+          &lt;description&gt;离散 1&lt;/description&gt;
+          &lt;taskId&gt;_task0&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;b17f170a-0121-4a8d-923b-37470585ae6b&quot;&gt;
+            &lt;period&gt;.01&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/baseRate&gt;
+      &lt;/clocks&gt;
+      &lt;timeAdvanceMode&gt;FixedStep&lt;/timeAdvanceMode&gt;
+    &lt;/clockRegistry&gt;
+    &lt;taskRegistry type=&quot;sto.TaskRegistry&quot; uuid=&quot;617fb004-d7cc-473f-a6b1-06bbf2dc1912&quot;&gt;
+      &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;9535599d-392c-4f9b-8f3b-754aea4ae535&quot;&gt;
+        &lt;isExecutable&gt;true&lt;/isExecutable&gt;
+        &lt;orderIndex&gt;1&lt;/orderIndex&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;97ba17f9-f3aa-4386-affe-2f018b7aab57&quot;&gt;
+          &lt;annotation&gt;D1&lt;/annotation&gt;
+          &lt;colorIndex&gt;2&lt;/colorIndex&gt;
+          &lt;description&gt;离散 1&lt;/description&gt;
+          &lt;taskId&gt;_task0&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;e163d422-a469-4484-8eff-a48f96ce47f9&quot;&gt;
+            &lt;period&gt;.01&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;elementType&gt;Task&lt;/elementType&gt;
+        &lt;identifier&gt;_task0&lt;/identifier&gt;
+        &lt;priority&gt;40&lt;/priority&gt;
+      &lt;/rootTaskHierarchyElements&gt;
+      &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;6bf42168-2846-4727-9474-912cbc039a7f&quot;&gt;
+        &lt;taskIdentifier&gt;_task0&lt;/taskIdentifier&gt;
+      &lt;/taskDependencyGraph&gt;
+      &lt;taskPriorityDirection&gt;HighNumberLast&lt;/taskPriorityDirection&gt;
+    &lt;/taskRegistry&gt;
+  &lt;/sto.Registry&gt;
+&lt;/slexec_sto&gt;</timingAndTaskingRegistry>
+    <zeroInternalMemoryAtStartupUnchecked>true</zeroInternalMemoryAtStartupUnchecked>
+    <FMUBlockMap type="ModelRefInfoRepo.FMUBlockInfo" uuid="9132a170-1d10-44c4-a0dd-ca9e09e63996"/>
+    <codeGenInfo type="ModelRefInfoRepo.CodeGenInformation" uuid="6575586c-40e0-4504-9c8f-11a3363b7574"/>
+    <compiledVariantInfos type="ModelRefInfoRepo.CompiledVariantInfoMap" uuid="fa491bfd-852c-492b-82d6-ae78eea5a166"/>
+    <configSettingsForConsistencyChecks type="ModelRefInfoRepo.ConfigSettingsForConsistencyChecks" uuid="d7b99b16-faba-44ec-924a-52d619641135">
+      <consistentOutportInitialization>true</consistentOutportInitialization>
+      <fixedStepSize>.01</fixedStepSize>
+      <frameDiagnosticSetting>2</frameDiagnosticSetting>
+      <hasHybridSampleTime>true</hasHybridSampleTime>
+      <optimizedInitCode>true</optimizedInitCode>
+      <signalLoggingSaveFormat>2</signalLoggingSaveFormat>
+      <simSIMDOptimization>1</simSIMDOptimization>
+      <solverName>FixedStepDiscrete</solverName>
+      <solverType>SOLVER_TYPE_FIXEDSTEP</solverType>
+      <hardwareSettings type="ModelRefInfoRepo.HardwareSettings" uuid="38bc1187-9fd9-4849-a0a8-81bdeabecc4e">
+        <prodBitPerChar>8</prodBitPerChar>
+        <prodBitPerDouble>64</prodBitPerDouble>
+        <prodBitPerFloat>32</prodBitPerFloat>
+        <prodBitPerInt>32</prodBitPerInt>
+        <prodBitPerLong>32</prodBitPerLong>
+        <prodBitPerLongLong>64</prodBitPerLongLong>
+        <prodBitPerPointer>32</prodBitPerPointer>
+        <prodBitPerPtrDiffT>32</prodBitPerPtrDiffT>
+        <prodBitPerShort>16</prodBitPerShort>
+        <prodBitPerSizeT>32</prodBitPerSizeT>
+        <prodEndianess>1</prodEndianess>
+        <prodLargestAtomicInteger>3</prodLargestAtomicInteger>
+        <prodShiftRight>true</prodShiftRight>
+        <prodWordSize>32</prodWordSize>
+      </hardwareSettings>
+    </configSettingsForConsistencyChecks>
+    <controllableInputRatesMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="abf246b8-98ce-42e1-9472-0616030b5492"/>
+    <controllableOutputRatesMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="4dc763c3-0f3c-4b23-97ec-9ddf76112848"/>
+    <dataPortGroup type="ModelRefInfoRepo.DataPortGroup" uuid="fd364a41-7659-407e-a124-d620a7c46c46">
+      <compDataInputPorts>0</compDataInputPorts>
+      <dataInputPorts>0</dataInputPorts>
+    </dataPortGroup>
+    <expFcnUnconnectedDataPortGroup type="ModelRefInfoRepo.DataPortGroup" uuid="1881dcb3-f3c8-4190-ab91-cc88599f583e"/>
+    <interfaceParameterInfo type="ModelRefInfoRepo.InterfaceParameterInfo" uuid="7afd2086-13a1-4899-a009-608735feae97"/>
+    <messageInfo type="ModelRefInfoRepo.MessageInformation" uuid="c204f4be-03fb-45b5-8c0e-689f93c420d9"/>
+    <methodInfo type="ModelRefInfoRepo.MethodExistenceInfo" uuid="2099c51e-ccd0-4486-9e3d-972ecfd9f5b5">
+      <hasEnableMethod>true</hasEnableMethod>
+      <hasSystemInitializeMethod>true</hasSystemInitializeMethod>
+      <hasSystemResetMethod>true</hasSystemResetMethod>
+      <hasTerminateMethod>true</hasTerminateMethod>
+    </methodInfo>
+    <periodicEventPortUnsupportedBlockInfo type="ModelRefInfoRepo.PeriodicEventPortUnsupportedBlockInfo" uuid="60e22cd5-713a-48a6-a706-de0e526f36b3"/>
+    <portGroupsRequireSameRate type="ModelRefInfoRepo.PortGroupsRequireSameRate" uuid="66fca0ad-6d0f-4401-af43-a6a36cae6cf5">
+      <DSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="0ac5d1a3-4988-4c0b-bb5b-67af1cc720b8"/>
+      <GlobalDSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="50be2713-781b-4fdc-aff7-eb871da9ee94"/>
+      <mergedPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="cf264089-7547-4359-afaf-6c847a6888cb"/>
+    </portGroupsRequireSameRate>
+    <rateBasedMdlGlobalDSMRateSpec type="ModelRefInfoRepo.GlobalDSMRateSpecMap" uuid="2751bdc4-961b-4b44-98e9-72a52cb6cf59"/>
+    <rateSpecOfGlobalDSMAccessedByDescExpFcnMdlMap type="ModelRefInfoRepo.GlobalDSMRateSpecMap" uuid="1972fff6-60e3-46c6-9464-ca04cdfa9f0f"/>
+    <rootBlockDiagramInterface type="ci.Model" uuid="e11f4c82-df6c-40e7-abed-9823a3dd1dac">
+      <p_RootComponentInterface type="ci.ComponentInterface" uuid="fd9d1fc2-06c1-4afc-b4f7-b9267f9dec61">
+        <p_InputPorts type="ci.SignalInterface" uuid="c809a1db-e11a-4fdc-a736-32f1f51794ef">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.01</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>single</p_ComputedType>
+          <p_SignalName>BSW_uADC_PA11</p_SignalName>
+        </p_InputPorts>
+        <p_Name>CSP</p_Name>
+        <p_Type>ROOT</p_Type>
+      </p_RootComponentInterface>
+    </rootBlockDiagramInterface>
+    <simulinkFunctions type="ModelRefInfoRepo.SimulinkFunctions" uuid="205e2271-c610-4a39-86c8-614aa93a4409">
+      <compSimulinkFunctionCatalog></compSimulinkFunctionCatalog>
+    </simulinkFunctions>
+    <sltpContext type="sltp.mm.core.Context" uuid="c44bd4f0-9d72-493d-8a8d-01063cb328a0">
+      <globalData type="sltp.mm.core.GlobalData" uuid="69f96331-25c7-4218-bfe0-1c893b1e5cbd">
+        <dataName>portABM_1_0x320_500ms</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f5a7da5e-719a-4923-b1c1-b3f0f0d10463">
+        <dataName>portABS_ESP_G_0x502_100ms</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b09b4ffc-a3de-4a48-9916-01967a6ede8b">
+        <dataName>portACU_3</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f640ffa4-d5c1-4c45-9f4b-d60e7405b392">
+        <dataName>portASP_uBatPosVltgOrig</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="d71094f9-7e73-4e10-900c-cbc415d81c24">
+        <dataName>portBCM4_0x392_20ms</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="95771bcd-c269-43df-8cf8-b60ed405a6ee">
+        <dataName>portBPSParaState_Cycle</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="70089d65-063f-4d6c-b2f7-3d9917bdec28">
+        <dataName>portBPS_C0V</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="01688618-ad89-46a7-96cf-c534035430d3">
+        <dataName>portBPS_msg</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="0d326e3f-2cf9-4d96-bceb-f05976f1ad7a">
+        <dataName>portBPS_msg2</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="4844d04f-e841-44b0-bbe0-f11d465b9d24">
+        <dataName>portBSW_uADC_PA11</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="e591fafd-89f9-450d-8659-ed80ae6ee760">
+        <dataName>portBTE2BMS_1_Msg</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="3052e0f8-45cd-407c-8c54-ca914785838d">
+        <dataName>portBTE2BMS_2_Msg</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="060c7f9c-cf67-41d3-985a-409543c78863">
+        <dataName>portBTE2BMS_3_Msg</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="383570af-ce8d-417f-8751-d4b77eb72225">
+        <dataName>portCANHALLTemp_msg</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="c04aeaf5-b29c-4132-a200-fed59e626f6d">
+        <dataName>portCANHALL_msg</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="798a5fb9-0c53-481e-a6a1-4ee42d1a4f04">
+        <dataName>portCANHALL_msg1</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="621505a9-deb8-4bc1-8daa-a2200bae3d25">
+        <dataName>portCANHALL_msg2</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="018d445e-d6a9-463e-aca2-38d9bd0d2bd3">
+        <dataName>portCDU_2</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="81c60e72-32e3-4943-9df9-fc399c898219">
+        <dataName>portCDU_OBC_3</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="bceaefc7-d0bb-4f46-add7-fba203340164">
+        <dataName>portCLM2_0x535_100ms</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="7cba4912-e3b5-49f1-8770-f4b5a11f5f57">
+        <dataName>portCSP_ABM_CheckSum</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="e0c5e707-bcd6-41b0-82e9-0036c75a2f01">
+        <dataName>portCSP_ABM_MsgCounter</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="89c23879-9431-47ff-8cb1-b0053c468aa5">
+        <dataName>portCSP_ACU_3_CrashOutputSts</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="c095d4a6-c1db-4080-91ec-a6f2f74a64b9">
+        <dataName>portCSP_AbsoluteThrottlePos</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="ed01d8d7-b294-475f-9019-efcb746511a2">
+        <dataName>portCSP_AbsoluteThrottlePosValid</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="010acc5b-33ea-4c2b-8ad4-92bd43a7f71a">
+        <dataName>portCSP_AsmAerosolData</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="10926aee-cfb4-4dc1-bae3-c2397e099437">
+        <dataName>portCSP_AsmErrStatus</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="4c69c4d6-9d2d-45e6-9ba8-50db481f1ca1">
+        <dataName>portCSP_AsmHwErr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="8f59461e-68b5-4846-b64b-fe2181013790">
+        <dataName>portCSP_BTE2BMS_1_0</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="72b2c063-be48-4bf8-a813-9136debb9fa3">
+        <dataName>portCSP_BTE2BMS_1_1</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="83aeda48-f353-4fa3-b6e1-247d6e7289ba">
+        <dataName>portCSP_BTE2BMS_1_2</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f199f94b-a0f6-4ba1-b4b3-8a28b0037dd3">
+        <dataName>portCSP_BTE2BMS_1_3</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="09f936a7-dc96-400e-b4c4-46298213c895">
+        <dataName>portCSP_BTE2BMS_1_4</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="2d0b915f-b5ae-49a1-b84d-f4a516527b50">
+        <dataName>portCSP_BTE2BMS_1_5</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="a80d38a3-a9fb-48ed-a744-600e1d698169">
+        <dataName>portCSP_BTE2BMS_1_6</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="fb5ec011-2437-4486-b691-825ea9d3a4cb">
+        <dataName>portCSP_BTE2BMS_1_7</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="6c8314a3-f457-47d8-ad68-91890120b83e">
+        <dataName>portCSP_BTE2BMS_2_0</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="3dee15d4-2e53-4f37-8ddf-c34d95ab7a83">
+        <dataName>portCSP_BTE2BMS_2_1</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="dc3ae60c-c70e-4707-9f8c-09b8033ec656">
+        <dataName>portCSP_BTE2BMS_2_2</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="9a7f84df-27c3-41a6-b55d-50c39aca846f">
+        <dataName>portCSP_BTE2BMS_3_0</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="ae04d2aa-fa90-4bc4-b9af-668e2f223fd0">
+        <dataName>portCSP_BTE2BMS_3_1</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="17ae5149-7f13-43cf-a541-8cccfde4df60">
+        <dataName>portCSP_BTE2BMS_3_2</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="accb39dc-8c1c-41d2-8776-43c04b38bbfa">
+        <dataName>portCSP_BTE2BMS_3_3</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="3725b137-f493-4e70-b37b-17da20506530">
+        <dataName>portCSP_BTE2BMS_3_4</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f0d6729a-3cfb-40df-b85f-406d246300ce">
+        <dataName>portCSP_BTE2BMS_3_5</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b64a95ae-5f43-46bc-831d-94172a20fc17">
+        <dataName>portCSP_BTE2BMS_3_6</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="a4b79d16-7fd4-4df8-aaa1-1f44c111c18c">
+        <dataName>portCSP_BTE2BMS_3_7</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="2ae76561-7175-46ab-88e5-a830c57b5d81">
+        <dataName>portCSP_BpsInternalErrorFlag</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="185f64f4-df7f-4194-a219-95bf0fa78a99">
+        <dataName>portCSP_BpsInternalErrorFlagGx</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="3ebd4148-35c3-4bb9-9b2a-f407e341b0fe">
+        <dataName>portCSP_BpsInternalErrorFlagZh</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="08187b5f-b9dc-4b0d-b9ff-1cfeee158ed0">
+        <dataName>portCSP_BpsOverAbsThresholdFlg</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="d93a697e-d1b1-43ad-a8da-3f0f15a378be">
+        <dataName>portCSP_BpsOverAbsThresholdFlgGx</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="c86787b5-ff7e-4cfa-be4e-09059f2bb482">
+        <dataName>portCSP_BpsOverAbsThresholdFlgZh</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b30912a9-f636-4dba-9e4b-563fcbceeb6d">
+        <dataName>portCSP_BpsOverSlopeThresholdFlg</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="e62d3d20-76ef-4bc2-9af0-a4a83a2fc1e0">
+        <dataName>portCSP_BpsOverSlopeThresholdFlgGx</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f183e252-fd6a-4256-be40-d1eb4d9a8db8">
+        <dataName>portCSP_BpsOverSlopeThresholdFlgZh</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="10a02662-f805-4548-a5c4-27cb49494164">
+        <dataName>portCSP_BpsPressureData</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="ad842f8d-ffa0-46e9-b76d-3c880012cb9c">
+        <dataName>portCSP_BpsPressureDataAlarm</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="39057142-c5ba-44f5-b917-8fd94aa8892a">
+        <dataName>portCSP_BpsPressureDataAlarmGx</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="a9b6f697-6b0f-4bd5-acb3-15c151c0ce2c">
+        <dataName>portCSP_BpsPressureDataAlarmZh</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="42320ce9-dc37-4a33-a239-f3815a7fd0bf">
+        <dataName>portCSP_BpsPressureDataGx</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="d3bb22e5-272e-405f-861c-26a895f5e36e">
+        <dataName>portCSP_BpsPressureDataZh</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="bef0b076-39ba-44d0-aae1-d7a45bddc066">
+        <dataName>portCSP_CSP_stChrgNgtvRlySts</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="2586d790-0c43-4f2f-b3c8-e15f5e5a5dcc">
+        <dataName>portCSP_CSP_stSelfDefRlySts</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="303b21cc-164d-421c-ad2d-8b40be0c0271">
+        <dataName>portCSP_CSP_stTestDischrgCmd</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="acce60f7-5d2b-428f-8382-49818c621101">
+        <dataName>portCSP_CSP_stTestFastChrgCmd</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="0dc391f3-1647-4d92-b1d8-0a5f6ab4272c">
+        <dataName>portCSP_CSP_stTestHtgchrgRlySts</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="6d24aee9-ada4-4ae6-a67c-68744b597d67">
+        <dataName>portCSP_CSP_stTestNegRlySts</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="e7d75546-b360-400f-b266-4a3602db8202">
+        <dataName>portCSP_CSP_stTestPosRlySts</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="7589acf2-b9e6-434a-80a7-4ac1e48791d7">
+        <dataName>portCSP_CSP_stTestPrechrgRlySts</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="035dc029-d4b8-462b-b3ec-55f734f2423d">
+        <dataName>portCSP_CSP_stTestQckchrgRlySts</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="00910194-882f-4f94-88e3-7d3e59ffc5ea">
+        <dataName>portCSP_CSP_stTestRelayCtrlType</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="89c6f84a-6238-4ccb-be89-bfa7a72d27ce">
+        <dataName>portCSP_CSP_stTestShuntDownCmd</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="14051e9c-96c3-482e-b587-3ef255a873e9">
+        <dataName>portCSP_CSP_stTestSlowChrgCmd</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="38a43a1b-a0c4-4e8c-9f23-da8f6f41fe3d">
+        <dataName>portCSP_CSP_stTestSlwchrgRlySts</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b17424c1-530b-4f3a-b203-c0964ce9c562">
+        <dataName>portCSP_ChrgSocTarSp</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b072407c-a620-448a-856e-5f7648e5651a">
+        <dataName>portCSP_CrashOutputSts</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b96eca9e-fa9b-412c-8e16-3b2de1f17509">
+        <dataName>portCSP_DCDC_HvCurr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="9e70fda0-b795-4831-87d3-a46373623681">
+        <dataName>portCSP_DCDC_HvVolt</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="42a10699-29d4-474e-82ea-0a63758541e7">
+        <dataName>portCSP_DCDC_LvSideCurr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="4c205450-6cbd-4c6b-9eed-47d2251463ad">
+        <dataName>portCSP_DCDC_LvSideVolt</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b59354c5-e9c0-4e62-9760-6a46c44f3a35">
+        <dataName>portCSP_EVCC_stCC2Conn</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="734015df-f1b2-4bc2-921e-52de1a6d139f">
+        <dataName>portCSP_EngineCoolantTemperture</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="88561df6-2fdd-4ea9-a6db-da2504f733bf">
+        <dataName>portCSP_EngineCoolantTempertureValid</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b1ea812f-de3c-40e8-8790-5e9ff3c7248f">
+        <dataName>portCSP_EngineSpeed</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="0b2b57fe-6d0f-47f1-b268-a5c659264e74">
+        <dataName>portCSP_EngineSpeedActual</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="a89a2495-242d-4dbc-b1b5-1142a8b1d4e2">
+        <dataName>portCSP_ExtTemp</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="6cc25725-c7ec-4124-8312-c0a7e9ea2bd8">
+        <dataName>portCSP_ExtTempValid</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="33d48f8c-7671-490a-9f84-5986f0c4ce6f">
+        <dataName>portCSP_ExternalTemperature_C</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="762e29b8-704f-465b-9d80-bc0dc422ba39">
+        <dataName>portCSP_FRZCUCIntTHvBattIn</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f4f166a2-4011-4c12-b21c-bfe0329dba73">
+        <dataName>portCSP_FRZCUCIntTHvBattOut</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="89390022-4727-49f9-9ee9-56c6e9e895e9">
+        <dataName>portCSP_FRZCUDCPortTemp_N</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="620bb0db-6f14-42ce-a48d-9f8920391068">
+        <dataName>portCSP_FRZCUDCPortTemp_P</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f5c3584a-9b32-4018-88e9-3547ef85070b">
+        <dataName>portCSP_HCU_AccessoriesCosumePower</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b2d41f02-6eb0-49c1-94c5-72a42c4dc86a">
+        <dataName>portCSP_HCU_BMS_stModeReq</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="7902cb94-70d1-43b3-b8a4-4c200cb1a45f">
+        <dataName>portCSP_HCU_BattHVHAllow</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="c4a8243c-7f17-4a94-87aa-89fb5d726324">
+        <dataName>portCSP_HCU_BattHeatAllow</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="21db542d-d7fa-40d6-b798-223040f4aa67">
+        <dataName>portCSP_HCU_EngineSts</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="9fa1df6e-1307-43af-8292-dbbe5601eb41">
+        <dataName>portCSP_HCU_HVReady</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="1fb94428-22fd-4d18-9997-a3102c19124b">
+        <dataName>portCSP_HCU_PTReady</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="145973e6-4b16-4980-b6f2-ea3b097c9d66">
+        <dataName>portCSP_HCU_PowerModeFed</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="955c8915-66ca-4727-b169-ff3f6d7be1ab">
+        <dataName>portCSP_HCU_PtSts</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="5585ab42-2f89-4839-a5c5-46d69d44f143">
+        <dataName>portCSP_HCU_SleepAllow</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="cfae7395-2d0f-4089-a8dc-3de79545f9d2">
+        <dataName>portCSP_HCU_VehicleAllowToCharge</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="e5b35181-f0cf-448e-b8c3-c3226a5dc4d1">
+        <dataName>portCSP_ISG_Curr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="d1e33525-4762-4299-9270-cebb1cffc948">
+        <dataName>portCSP_ISG_ModeSt</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="d7364a5c-e2b4-4718-a404-944eeb47ff6f">
+        <dataName>portCSP_ISG_Volt</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="2211a3c8-86b8-474a-9d88-025368a46708">
+        <dataName>portCSP_LoadValueCalculated</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="d2868d63-ea95-4af8-b539-0e0a0f515839">
+        <dataName>portCSP_LoadValueCalculatedValid</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="2f127861-facf-4807-9840-b8f4e6bdd044">
+        <dataName>portCSP_OBCMaxChgCurrent</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="48deced8-8c02-401d-b00e-339e4cfe9e84">
+        <dataName>portCSP_OBCMaxChgCurrent1</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="28b7fef8-0480-4144-a29d-b31609a6217d">
+        <dataName>portCSP_OBC_CC_ConnectSts</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="a9f16574-21d4-4d2d-85d5-e59d63b161bd">
+        <dataName>portCSP_OBC_CP_DutyCycleFault</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="8b35a1ac-562c-4aa6-99a7-68c8987fce6f">
+        <dataName>portCSP_OBC_CP_DutyCycleValue</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="820dd37a-ee07-40d9-9778-e55c292d588b">
+        <dataName>portCSP_OBC_CP_LineSts</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="0d5fcdfa-6144-4a6e-a6f6-298446e5a995">
+        <dataName>portCSP_OBC_ChgSts</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="ddbd17a4-0d19-42ac-b064-dccb2bb21e71">
+        <dataName>portCSP_OBC_ElectronicLockSts</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b9e7d029-c3a3-456a-96c6-6641e2602363">
+        <dataName>portCSP_OBC_FaultCode</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="dab096b8-6da8-488a-9535-405dfb41fa43">
+        <dataName>portCSP_OBC_FaultLevelSts</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f9698bbc-f365-4cf9-9299-0fb9a1686685">
+        <dataName>portCSP_OBC_InputCurr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="4a0f0f65-c6be-4dd1-9bcb-a4fa04a360d3">
+        <dataName>portCSP_OBC_InputVolt</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="577eafbf-dc8b-4b44-8143-e3572d8952dc">
+        <dataName>portCSP_OBC_KL30_UnderVolt</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="9dc3fc7a-054d-4c67-a41f-8d11cb7f7e3a">
+        <dataName>portCSP_OBC_MaxOutputCurrent </dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="a472b337-1597-4b98-8893-d5bfcf80d065">
+        <dataName>portCSP_OBC_MaxOutputPower</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="a4926a6f-35b4-4f55-890b-3bb9700f66a7">
+        <dataName>portCSP_OBC_MaxOutputVoltage </dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="8fa2c64e-628c-46f9-b149-d03ef43fd655">
+        <dataName>portCSP_OBC_OutputPowerLimt</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="828d4b02-b3cc-4c81-9fb3-9c7743533760">
+        <dataName>portCSP_OBC_WorkingMode</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="cbc24fdb-ae63-43b0-b751-1d5c1a7c6ebc">
+        <dataName>portCSP_TBOX_BattHeatReq</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="2d04e43e-0dca-42e8-9d1e-11c622ee9edb">
+        <dataName>portCSP_TBOX_ChargeAllow</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="05a39cba-c8ae-460b-a893-47fedeead2fa">
+        <dataName>portCSP_TBOX_DateTimeDay</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="077e345b-50cb-4f66-acf4-53573ad01dd9">
+        <dataName>portCSP_TBOX_DateTimeHr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="fbb1b05d-47e0-453d-a20c-241b33e0d47b">
+        <dataName>portCSP_TBOX_DateTimeMin</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="1ff1c17b-c32e-4c08-832d-086e2be198cd">
+        <dataName>portCSP_TBOX_DateTimeMth</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="5b1b6d02-ab5c-4cca-b5ff-68d6b0d1f16f">
+        <dataName>portCSP_TBOX_DateTimeSec</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="5ebaf0f8-9390-40bd-b7e7-b834dd844eb1">
+        <dataName>portCSP_TBOX_DateTimeYr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="95a1b277-c5ad-4bac-94b1-4f1c5e4b37ac">
+        <dataName>portCSP_TMF_Curr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="ec50aeb1-26d4-460b-abe8-dcda1db5564f">
+        <dataName>portCSP_TMF_ModeSt</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="5bed13cf-61dc-4f4b-9dac-c1ff2c9e8f5f">
+        <dataName>portCSP_TMF_Volt</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f87d810b-a9f2-4f9d-aa44-1b27868fc331">
+        <dataName>portCSP_TotalOdo</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="ed24eaea-02ef-4fea-9f03-08d52696df34">
+        <dataName>portCSP_TotalOdometerkm</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="4dcfb8a2-d0fb-4157-bd6b-40c3a706c1db">
+        <dataName>portCSP_VCC_1_OTASts</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b0b7947c-5ee4-40da-923e-8ed3e2bd11cf">
+        <dataName>portCSP_VCUBMSAcChrgPerm</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="bc2b7cfe-24fa-40c2-b32b-9bc77028f03f">
+        <dataName>portCSP_VCUBMSDcChrgPerm</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="6c9854c5-60d3-41e8-9bc2-ef88151a90ce">
+        <dataName>portCSP_VCU_AccessoryConsumePwr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="8970ac4c-2a8c-4ead-b2f2-9199c785fe12">
+        <dataName>portCSP_VCU_BMSAcChrgPerm</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="49d98c40-d19c-4f81-81de-cd71f6e7388d">
+        <dataName>portCSP_VCU_BMSDcChrgPerm</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="641adf33-53d2-4b21-a8b4-9d9974031762">
+        <dataName>portCSP_VCU_BMSHVreq</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="252ec74a-8f75-45e0-b51f-6c764a127d46">
+        <dataName>portCSP_VCU_BMSPreheatKeepWarmAllow</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="81dff33a-61d9-4e6c-afa4-a4f33fcd6663">
+        <dataName>portCSP_VCU_BMSRequestMode</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="20f12ea1-017d-478c-b6b2-25b76a864bf7">
+        <dataName>portCSP_VCU_BMSVehDcChrgnIDmd</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f8518b8f-fcfb-4a05-be5b-ab9244623557">
+        <dataName>portCSP_VCU_BMSVehDcChrgnUDmd</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="737b2cbe-7485-405d-932e-c39b70add061">
+        <dataName>portCSP_VCU_HvBattKeepWarmActiveReq</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="98353b26-bcb6-4dd9-85bc-69840896de26">
+        <dataName>portCSP_VCU_PRNDGearAct</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b44e251d-4268-4188-aca4-b659b46dddb0">
+        <dataName>portCSP_VCU_PreheatKpWmAllw</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="5587a623-c50e-49ee-915e-2ef585c85c92">
+        <dataName>portCSP_VCU_TargetSOC</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="df6272b0-0a6a-407a-be7e-9006f3ef6454">
+        <dataName>portCSP_VehSpeed</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="746108c1-7140-4c84-bb6f-a697a7ec87ca">
+        <dataName>portCSP_VehSpeedValid</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="2a5b0437-40c8-42f4-b643-ccf87bab14d6">
+        <dataName>portCSP_VehicleSpeedVSOSig</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="2313f2e0-38d6-450e-a430-999ec2f9b168">
+        <dataName>portCSP_VehicleSpeedVSOSigValidData</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="bcffde51-5c55-4c99-9a04-97ff473c5d14">
+        <dataName>portCSP_iCPChrgCurr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="33fc2bbc-a4d4-49f7-acf6-206503a8e401">
+        <dataName>portCSP_iCurr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="e8a9d45f-50d5-489b-9282-94e8133edfdd">
+        <dataName>portCSP_iCurr1</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="de2678b0-ee41-4c23-af92-b0fa6f38f8b4">
+        <dataName>portCSP_iCurrGx</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f47e6b2a-80e1-4786-b78c-8f2dedb52c21">
+        <dataName>portCSP_iCurrZh</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="da152460-1332-4845-9f12-667bb01de01f">
+        <dataName>portCSP_iDigitalCurrGx</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="856869c2-677a-480f-a6a3-08e6cf13be15">
+        <dataName>portCSP_iOBCChrgOutCurr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="252cd920-0bc4-4b27-ae97-19bbaca364e3">
+        <dataName>portCSP_iOBCChrgOutVolt</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b9aa779e-6c74-444d-b2a3-de629cdd1103">
+        <dataName>portCSP_rPackChargeStopSOC</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="1ef64d82-9d95-4819-9049-c4b750202d41">
+        <dataName>portCSP_stADCTransFault</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="5f1eae99-ea9a-4391-858d-e75fda793548">
+        <dataName>portCSP_stCPConn</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="09828a2f-0cd4-4876-8cb6-d53ea9d93e46">
+        <dataName>portCSP_stCPErrLvl</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="514b062a-bfd3-4ecd-bc83-3fc5838e88db">
+        <dataName>portCSP_stCanHallErr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="40294c24-6c58-473a-a00a-b782857e849b">
+        <dataName>portCSP_stCurrSensErr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="98c38c5f-e9be-4513-8846-4db94e2d1e44">
+        <dataName>portCSP_stCurrSensErrFlag</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b7b0d444-7d96-4865-b5b8-66b14ad5a10f">
+        <dataName>portCSP_stCurrSensErrFlag1</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="ba201616-586d-4742-9d1e-23fb516cbdf7">
+        <dataName>portCSP_stCurrSensErrInfo</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="9baa46ec-38ba-4571-a19a-6e7816a843e6">
+        <dataName>portCSP_stCurrSensErrInfo1</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="541d61d3-372b-40b0-84af-7b6af0e25a4e">
+        <dataName>portCSP_stDriveCycleActv</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="1a446d77-83ea-49ef-9646-da0cdb42fe55">
+        <dataName>portCSP_stExitStationHeatAllow</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="919f6681-5e8e-401f-8b22-d6e784c85333">
+        <dataName>portCSP_stHardFaultZh</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="58937583-5c51-4360-a5f0-123e04717d0e">
+        <dataName>portCSP_stPCBOverTempZh</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="97060e4b-c763-4ff8-9886-6e375858c14b">
+        <dataName>portCSP_stPCBTempFault</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="e57838fa-88b3-4e9d-8f53-b04b69736621">
+        <dataName>portCSP_stShuntOverTemp</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="e88f77a3-d32d-41c0-ae99-525b486f17a7">
+        <dataName>portCSP_stShuntTempFault</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="7ba74bf8-88ed-4476-8ade-170c6f98f0ae">
+        <dataName>portCSP_stStatusInternalErr</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="46a9ab6d-ef1c-4ca2-a751-82a34350f729">
+        <dataName>portCSP_stStatusPowerSup</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f7b7e581-d312-41b7-b7d3-85b2ef6e6e0b">
+        <dataName>portCSP_stVCUDisChrgCathodeRlyCtrl</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="9cb914c0-b2e3-4b26-bfc4-ccea68792207">
+        <dataName>portCSP_stWarmUpCycleActv</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="3f14cd5c-3e2f-4fe7-a361-e6c3987485c9">
+        <dataName>portCSP_tPCBTempZh</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="30cdcfbf-e2a7-4f90-97e4-2918eb325fa8">
+        <dataName>portCSP_tShuntTempZh</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="4c7da516-f3ec-40b9-afbd-0864205d20bf">
+        <dataName>portCSP_uOBCChrgOutVltg</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="d8795eab-77d8-4281-b4bd-868436f22376">
+        <dataName>portDCDC_1_0x418_100ms</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="11044418-24c1-4d1f-8011-7055bb9cfbd9">
+        <dataName>portDCDC_2_0x41E_100ms</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="ad4bea5e-1d44-4981-9ba0-95a3129d7473">
+        <dataName>portEMS1_0x280_100ms</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="9f71f2d2-c419-48a7-b361-4810c78f36e6">
+        <dataName>portEMS28_0x4BD_100ms</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="d039c827-e7cf-4736-b731-c7b09d7919ae">
+        <dataName>portEMS4_0x4D9_100ms</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="7ea39c6a-6daf-4a1d-a489-1c426feadbad">
+        <dataName>portEMS_1_G</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="021cb3d9-c5e6-4e0d-858d-4e0164f173db">
+        <dataName>portEMS_28</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="7675c7aa-03cd-4fa4-9816-dd19f6f9fc8c">
+        <dataName>portEMS_4_G</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f98fba89-5a50-4ece-a305-7469b76cae38">
+        <dataName>portEVCC1_msg</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="0b812c0a-c3b2-4ae4-872a-72004ac1ca9e">
+        <dataName>portEVCC2_msg</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="0ab8025f-292a-42f2-b8c5-08d5344449bd">
+        <dataName>portEVCC_CC2_Alarm</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="fec62e9a-4e63-482e-b2d5-fb7cb8e93982">
+        <dataName>portEVCC_CC2_ConnectSts</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="d76a403d-3dd2-49b2-8458-529265188b81">
+        <dataName>portEVCC_DCMinusTemp</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="01e9abb0-d517-4ad4-b001-f8aff755d6e6">
+        <dataName>portEVCC_DCPlusTemp</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="25e54f5b-8152-408a-b7e4-a361817c99db">
+        <dataName>portEVCC_ElectronicLockSts</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="6d6873d9-8a89-4f09-9ed1-b7cb980ee92e">
+        <dataName>portEVCC_GB_Rx_Error</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="17225554-9b3b-4e8b-ab88-bc22f340e626">
+        <dataName>portEVCC_GB_Special_Error</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="d8d974ca-e23f-4816-b38b-f2ba6c24d189">
+        <dataName>portEVCC_GunConnectSt</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="d19b8b61-0448-40a2-80b6-d098eefa253f">
+        <dataName>portFLZCU_9</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="ac1fbca3-03f5-4a77-8e7e-0211d2f62f3e">
+        <dataName>portFMCU_1</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b4def58b-8711-407c-89cb-e41fe9d8b4fb">
+        <dataName>portFRZCU_3</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="e7f963d6-f89b-48b4-b377-10e362528bf7">
+        <dataName>portHCU_1_G</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="e7056ba5-f3d8-4166-833f-31276f63a65b">
+        <dataName>portHCU_1_G_0x40A_100ms</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="8c08b521-b990-422b-a896-c3bd4bc0045a">
+        <dataName>portHCU_2_G</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="be701f35-7c32-4e11-9c12-0ac7eb10d6b7">
+        <dataName>portHCU_7_0x108_10ms</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="c1b487e1-8d2a-40df-82db-131fdc01aa22">
+        <dataName>portICC_COM_1</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="11bc1fb0-893a-4f5e-87aa-bd69d6b179ce">
+        <dataName>portICC_COM_8</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="5c8217d5-10c2-4c10-9bc4-aef696a41a53">
+        <dataName>portICM1_0x430_20ms</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="aa0c8789-85c8-4385-bc04-082791bbcffe">
+        <dataName>portISG1_0x146_10ms</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="0cb9340d-077f-454b-aecc-49d31f0591f4">
+        <dataName>portISG3_0x312_50ms</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="80126306-fbbc-4ae2-8249-84d447f65276">
+        <dataName>portOBC_1_0x425_100ms</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="e6aa9527-d286-4a36-9368-7226be54da50">
+        <dataName>portOBC_3_0x42B_100ms</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="0fd5d319-6f81-494b-b5f0-0dc14ddebddd">
+        <dataName>portOBC_4_0x43C_100ms</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="944d07fe-1def-4246-b1a1-69f0cc283783">
+        <dataName>portOBC_ChargeSourceMode</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="c866ee8b-e884-42ac-bae8-69deb9720030">
+        <dataName>portOBD_PermanentFailureCycle</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="7a35c165-7cfe-45c0-a092-d965ff509859">
+        <dataName>portONEBOX_1_G</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="96b69920-5115-4053-821e-bdf29e25efdf">
+        <dataName>portOut1</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="8dfc590d-e4da-435d-9bcd-f66833b3c82e">
+        <dataName>portOut2</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="aa23dad2-0746-4183-a6b0-2eb8cd03f9a6">
+        <dataName>portOut3</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="a0fae11f-daf4-455b-a673-d156a4cecc9c">
+        <dataName>portOut4</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="0bad1781-8d28-49d1-b234-0fb552b72e42">
+        <dataName>portOut5</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="ff382255-5cdb-4cf3-993c-8e9f092e554e">
+        <dataName>portOut6</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="dadd3e37-e65f-40b5-82dc-1fb2bc7d6efa">
+        <dataName>portOutport</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="5b85f8b0-c453-4197-9982-445cfaf08c64">
+        <dataName>portRMCU_1</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="1716bab1-a4e5-493a-a7a8-f6b5d08abfe7">
+        <dataName>portSSP_uBatTtlVolt</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="37e1e7cc-8cbc-4e1c-96c3-ff6a690b6a36">
+        <dataName>portTBOX_2_0x4F2_0ms</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="782dcb37-dc4f-437d-914d-56cd39d4c73e">
+        <dataName>portTBOX_3_0x358_50ms</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b825ef7e-ba01-48f7-ab4f-af6cfeca9041">
+        <dataName>portTMF1_0x15C_10ms</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="397301a8-7156-4ead-82cd-c6ef922c2ac7">
+        <dataName>portTMF3_0x31B_50ms</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="3530197d-1eca-4542-8f03-298441c934dc">
+        <dataName>portTMR1_0x173_10ms</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="1c9463fe-1429-4362-ac4f-c09bd77d5e80">
+        <dataName>portTMR3_0x328_50ms</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="bdd88c1c-215d-46cc-a286-76f838ecd7b7">
+        <dataName>portTMS_1</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="e5a1e1eb-f073-47a1-8026-1728366177ab">
+        <dataName>portVCC_1</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="85e0cebb-cab7-41c6-8c50-51aa557fe95e">
+        <dataName>portVCC_2</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="02625a45-9b3a-410e-99b3-f6fe15a848ed">
+        <dataName>portVCC_3</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="e2de5991-d5ca-4813-962e-3a1b65074886">
+        <dataName>portVCU1_0x035_10ms</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="5a8479ae-6d27-4e9d-86e4-3a6eed131821">
+        <dataName>portVCU3</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="11e2b50b-ccd8-4021-b22b-4cc7045f3a11">
+        <dataName>portVCU6_0x4ED_100ms</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="36cb5ae2-988b-44b7-a5ac-b0c86631f40c">
+        <dataName>portVCU_1_G</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="d9939363-e5ab-4322-aca5-693bd51ef1f3">
+        <dataName>portVCU_BMS_2</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="80b9398e-3f9c-4024-ba68-15b039c95bbf">
+        <dataName>portVCU_COM_1</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <priorityDirection>HighNumberLast</priorityDirection>
+      <editorState type="sltp.mm.core.EditorState" uuid="54c79d35-64a9-4375-9a7a-0defa6cac15a">
+        <isSynchronized>true</isSynchronized>
+        <panelState type="sltp.mm.core.EditorPanelState" uuid="cb7f1131-467d-452f-a622-c3474966e419"/>
+      </editorState>
+      <rootTask type="sltp.mm.core.Task" uuid="4050f123-7a0e-4d08-b365-47424b40a455">
+        <context type="sltp.mm.core.Context" uuid="c44bd4f0-9d72-493d-8a8d-01063cb328a0"/>
+        <explicit>false</explicit>
+        <name>Default</name>
+        <priority>-2147483648</priority>
+        <subgraph type="sltp.mm.core.Graph" uuid="6905917e-7e31-4816-bd8f-a465932db93c">
+          <tasks type="sltp.mm.core.Task" uuid="ec7831da-14df-49c8-a8f3-09dd516005fd">
+            <context type="sltp.mm.core.Context" uuid="c44bd4f0-9d72-493d-8a8d-01063cb328a0"/>
+            <explicit>false</explicit>
+            <id>1</id>
+            <isTimed>true</isTimed>
+            <name>D1</name>
+            <priority>40</priority>
+            <rates type="sltp.mm.core.Rate" uuid="8485335c-d409-4177-9321-3d47c060e03c">
+              <annotation>D1</annotation>
+              <color>-436207361</color>
+              <identifier>ClassicPeriodicDiscrete0.010</identifier>
+              <rateSpec type="sltp.mm.core.RateSpec">
+                <period>.01</period>
+              </rateSpec>
+              <sti>0</sti>
+            </rates>
+          </tasks>
+        </subgraph>
+      </rootTask>
+    </sltpContext>
+    <stateWriterToOwnerMap type="ModelRefInfoRepo.StateWriterInfo" uuid="93de2674-6304-4fd8-812f-4b5e466d7cfb"/>
+    <stoClientDataRegistry type="sto.ClientDataRegistry" uuid="dafd21d0-36d3-4df5-a30a-46694aa8ff28">
+      <dataSets type="sto.ClientClockNamedDataSet" uuid="44a81bef-ff06-4167-83b2-3d6985755e0c">
+        <tag>sltpEvents</tag>
+      </dataSets>
+      <dataSets type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="7dd6c482-d1ae-4420-9291-76f451109070">
+        <tag>sltpTaskGroups</tag>
+      </dataSets>
+      <dataSets type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="374be8d2-a1a5-48ba-974a-30120f923bd3">
+        <dSet type="ModelRefInfoRepo.SltpTaskData" uuid="944a050b-a6a4-4014-bb92-f2a6d196e48e"/>
+        <tSet type="ModelRefInfoRepo.SltpTaskData" uuid="944a050b-a6a4-4014-bb92-f2a6d196e48e">
+          <dataName>D1</dataName>
+          <linkedSet type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="374be8d2-a1a5-48ba-974a-30120f923bd3"/>
+          <id type="sto.TaskHierarchyElementId">
+            <id>_task0</id>
+          </id>
+        </tSet>
+        <tag>sltpTasks</tag>
+      </dataSets>
+    </stoClientDataRegistry>
+    <varTsUIDMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="e5d83f60-c97d-45ab-ab7b-bf059b081712"/>
+  </ModelRefInfoRepo.ModelRefInfoRoot>
+</MF0>

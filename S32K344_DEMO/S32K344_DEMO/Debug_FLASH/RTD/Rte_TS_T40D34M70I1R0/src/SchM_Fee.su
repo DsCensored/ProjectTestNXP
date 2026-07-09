@@ -1,0 +1,9 @@
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Fee.c:309:8:Fee_schm_read_msr	4	static
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Fee.c:451:6:SchM_Enter_Fee_FEE_EXCLUSIVE_AREA_00	16	static
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Fee.c:475:6:SchM_Exit_Fee_FEE_EXCLUSIVE_AREA_00	16	static
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Fee.c:489:6:SchM_Enter_Fee_FEE_EXCLUSIVE_AREA_01	16	static
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Fee.c:513:6:SchM_Exit_Fee_FEE_EXCLUSIVE_AREA_01	16	static
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Fee.c:527:6:SchM_Enter_Fee_FEE_EXCLUSIVE_AREA_02	16	static
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Fee.c:551:6:SchM_Exit_Fee_FEE_EXCLUSIVE_AREA_02	16	static
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Fee.c:565:6:SchM_Enter_Fee_FEE_EXCLUSIVE_AREA_03	16	static
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Fee.c:589:6:SchM_Exit_Fee_FEE_EXCLUSIVE_AREA_03	16	static

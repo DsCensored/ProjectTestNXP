@@ -1,0 +1,8 @@
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip_MC_RGM.c:241:13:Power_Ip_MC_RGM_ClearFesResetFlags	40	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip_MC_RGM.c:282:13:Power_Ip_MC_RGM_ClearDesResetFlags	40	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip_MC_RGM.c:345:6:Power_Ip_MC_RGM_ResetInit	24	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip_MC_RGM.c:429:27:Power_Ip_MC_RGM_CheckResetReason	40	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip_MC_RGM.c:523:20:Power_Ip_MC_RGM_GetResetReason	24	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip_MC_RGM.c:597:8:Power_Ip_MC_RGM_GetResetReason_Uint	8	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip_MC_RGM.c:613:23:Power_Ip_MC_RGM_GetResetRawValue	40	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip_MC_RGM.c:765:7:Power_Ip_MC_RGM_ResetDuringStandby	8	static

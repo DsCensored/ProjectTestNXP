@@ -1,0 +1,3 @@
+../RTD/EcuM_TS_T40D34M70I1R0/src/EcuM.c:182:6:EcuM_SetWakeupEvent	8	static
+../RTD/EcuM_TS_T40D34M70I1R0/src/EcuM.c:194:6:EcuM_ValidateWakeupEvent	8	static
+../RTD/EcuM_TS_T40D34M70I1R0/src/EcuM.c:207:6:EcuM_CheckWakeup	8	static

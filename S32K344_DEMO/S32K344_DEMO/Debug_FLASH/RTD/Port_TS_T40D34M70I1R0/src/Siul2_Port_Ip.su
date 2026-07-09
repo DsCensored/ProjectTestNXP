@@ -1,0 +1,11 @@
+../RTD/Port_TS_T40D34M70I1R0/src/Siul2_Port_Ip.c:272:13:Siul2_Port_Ip_PinInit	24	static
+../RTD/Port_TS_T40D34M70I1R0/src/Siul2_Port_Ip.c:418:20:Siul2_Port_Ip_WriteDCMConfiguration	24	static
+../RTD/Port_TS_T40D34M70I1R0/src/Siul2_Port_Ip.c:455:20:Siul2_Port_Ip_WriteIMCRConfiguration	24	static
+../RTD/Port_TS_T40D34M70I1R0/src/Siul2_Port_Ip.c:516:20:Siul2_Port_Ip_GetMSCRConfiguration	32	static
+../RTD/Port_TS_T40D34M70I1R0/src/Siul2_Port_Ip.c:628:30:Siul2_Port_Ip_Init	24	static
+../RTD/Port_TS_T40D34M70I1R0/src/Siul2_Port_Ip.c:663:6:Siul2_Port_Ip_SetPullSel	40	static
+../RTD/Port_TS_T40D34M70I1R0/src/Siul2_Port_Ip.c:738:6:Siul2_Port_Ip_SetOutputBuffer	24	static
+../RTD/Port_TS_T40D34M70I1R0/src/Siul2_Port_Ip.c:771:6:Siul2_Port_Ip_SetInputBuffer	40	static
+../RTD/Port_TS_T40D34M70I1R0/src/Siul2_Port_Ip.c:833:6:Siul2_Port_Ip_SetPinDirection	24	static
+../RTD/Port_TS_T40D34M70I1R0/src/Siul2_Port_Ip.c:880:8:Siul2_Port_Ip_RevertPinConfiguration	40	static
+../RTD/Port_TS_T40D34M70I1R0/src/Siul2_Port_Ip.c:933:6:Siul2_Port_Ip_GetPinConfiguration	56	static

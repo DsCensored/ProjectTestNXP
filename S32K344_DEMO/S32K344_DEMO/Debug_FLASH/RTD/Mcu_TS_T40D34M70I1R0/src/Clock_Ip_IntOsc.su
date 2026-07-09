@@ -1,0 +1,9 @@
+../RTD/Mcu_TS_T40D34M70I1R0/src/Clock_Ip_IntOsc.c:148:13:Clock_Ip_InternalOscillatorEmpty	8	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Clock_Ip_IntOsc.c:153:13:Clock_Ip_InternalOscillatorEmpty_Disable	8	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Clock_Ip_IntOsc.c:161:13:Clock_Ip_SetFircStdby	8	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Clock_Ip_IntOsc.c:176:13:Clock_Ip_EnableFircStdby	8	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Clock_Ip_IntOsc.c:182:13:Clock_Ip_DisableFircStdby	8	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Clock_Ip_IntOsc.c:190:13:Clock_Ip_SetSircStdby	8	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Clock_Ip_IntOsc.c:205:13:Clock_Ip_EnableSircStdby	8	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Clock_Ip_IntOsc.c:211:13:Clock_Ip_DisableSircStdby	8	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Clock_Ip_IntOsc.c:220:13:Clock_Ip_SetFircDivSelHSEb	48	static

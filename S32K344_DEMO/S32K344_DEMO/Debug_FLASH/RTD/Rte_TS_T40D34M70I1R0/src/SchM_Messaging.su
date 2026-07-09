@@ -1,0 +1,13 @@
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Messaging.c:314:8:Messaging_schm_read_msr	4	static
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Messaging.c:457:6:SchM_Enter_Messaging_MESSAGING_EXCLUSIVE_AREA_00	16	static
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Messaging.c:481:6:SchM_Exit_Messaging_MESSAGING_EXCLUSIVE_AREA_00	16	static
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Messaging.c:495:6:SchM_Enter_Messaging_MESSAGING_EXCLUSIVE_AREA_01	16	static
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Messaging.c:519:6:SchM_Exit_Messaging_MESSAGING_EXCLUSIVE_AREA_01	16	static
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Messaging.c:533:6:SchM_Enter_Messaging_MESSAGING_EXCLUSIVE_AREA_02	16	static
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Messaging.c:557:6:SchM_Exit_Messaging_MESSAGING_EXCLUSIVE_AREA_02	16	static
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Messaging.c:571:6:SchM_Enter_Messaging_MESSAGING_EXCLUSIVE_AREA_03	16	static
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Messaging.c:595:6:SchM_Exit_Messaging_MESSAGING_EXCLUSIVE_AREA_03	16	static
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Messaging.c:608:6:SchM_Enter_Messaging_MESSAGING_EXCLUSIVE_AREA_04	16	static
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Messaging.c:632:6:SchM_Exit_Messaging_MESSAGING_EXCLUSIVE_AREA_04	16	static
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Messaging.c:646:6:SchM_Enter_Messaging_MESSAGING_EXCLUSIVE_AREA_05	16	static
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Messaging.c:670:6:SchM_Exit_Messaging_MESSAGING_EXCLUSIVE_AREA_05	16	static

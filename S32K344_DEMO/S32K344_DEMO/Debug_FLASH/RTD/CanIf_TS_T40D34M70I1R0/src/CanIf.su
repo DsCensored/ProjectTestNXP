@@ -1,0 +1,6 @@
+../RTD/CanIf_TS_T40D34M70I1R0/src/CanIf.c:117:6:CanIf_Init	8	static
+../RTD/CanIf_TS_T40D34M70I1R0/src/CanIf.c:128:16:CanIf_Transmit	48	static
+../RTD/CanIf_TS_T40D34M70I1R0/src/CanIf.c:186:6:CanIf_TxConfirmation	24	static
+../RTD/CanIf_TS_T40D34M70I1R0/src/CanIf.c:210:6:CanIf_RxIndication	40	static
+../RTD/CanIf_TS_T40D34M70I1R0/src/CanIf.c:255:6:CanIf_ControllerBusOff	24	static
+../RTD/CanIf_TS_T40D34M70I1R0/src/CanIf.c:278:6:CanIf_ControllerModeIndication	8	static

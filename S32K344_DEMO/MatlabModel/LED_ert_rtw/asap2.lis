@@ -1,0 +1,25 @@
+    CAN_msgCtrlCmd.ProtocolMode
+    CAN_msgCtrlCmd.Extended
+    CAN_msgCtrlCmd.Length
+    CAN_msgCtrlCmd.Remote
+    CAN_msgCtrlCmd.Error
+    CAN_msgCtrlCmd.BRS
+    CAN_msgCtrlCmd.ESI
+    CAN_msgCtrlCmd.DLC
+    CAN_msgCtrlCmd.ID
+    CAN_msgCtrlCmd.Reserved
+    CAN_msgCtrlCmd.Timestamp
+    CAN_msgCtrlCmd.Data
+    CAN_msgSts.ProtocolMode
+    CAN_msgSts.Extended
+    CAN_msgSts.Length
+    CAN_msgSts.Remote
+    CAN_msgSts.Error
+    CAN_msgSts.BRS
+    CAN_msgSts.ESI
+    CAN_msgSts.DLC
+    CAN_msgSts.ID
+    CAN_msgSts.Reserved
+    CAN_msgSts.Timestamp
+    CAN_msgSts.Data
+BSW_uADC_PA11

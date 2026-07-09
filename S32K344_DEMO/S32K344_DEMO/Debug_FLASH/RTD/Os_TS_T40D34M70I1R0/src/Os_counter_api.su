@@ -1,0 +1,2 @@
+../RTD/Os_TS_T40D34M70I1R0/src/Os_counter_api.c:57:12:GetCounterValue	8	static
+../RTD/Os_TS_T40D34M70I1R0/src/Os_counter_api.c:64:12:GetElapsedValue	16	static

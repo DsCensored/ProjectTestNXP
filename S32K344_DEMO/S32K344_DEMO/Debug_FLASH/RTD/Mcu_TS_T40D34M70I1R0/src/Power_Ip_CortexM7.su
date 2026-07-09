@@ -1,0 +1,4 @@
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip_CortexM7.c:152:6:Power_Ip_CM7_DisableSleepOnExit	0	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip_CortexM7.c:167:6:Power_Ip_CM7_EnableSleepOnExit	0	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip_CortexM7.c:182:6:Power_Ip_CM7_DisableDeepSleep	0	static
+../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip_CortexM7.c:195:6:Power_Ip_CM7_EnableDeepSleep	0	static

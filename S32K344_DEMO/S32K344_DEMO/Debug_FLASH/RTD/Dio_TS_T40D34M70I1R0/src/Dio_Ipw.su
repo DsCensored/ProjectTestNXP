@@ -1,0 +1,9 @@
+../RTD/Dio_TS_T40D34M70I1R0/src/Dio_Ipw.c:206:26:Dio_Ipw_ReverseBits	16	static
+../RTD/Dio_TS_T40D34M70I1R0/src/Dio_Ipw.c:235:22:Dio_Ipw_ReadChannelValue	16	static
+../RTD/Dio_TS_T40D34M70I1R0/src/Dio_Ipw.c:267:15:Dio_Ipw_ReadChannel	24	static
+../RTD/Dio_TS_T40D34M70I1R0/src/Dio_Ipw.c:307:6:Dio_Ipw_WriteChannel	16	static
+../RTD/Dio_TS_T40D34M70I1R0/src/Dio_Ipw.c:355:15:Dio_Ipw_FlipChannel	24	static
+../RTD/Dio_TS_T40D34M70I1R0/src/Dio_Ipw.c:415:19:Dio_Ipw_ReadPort	24	static
+../RTD/Dio_TS_T40D34M70I1R0/src/Dio_Ipw.c:455:6:Dio_Ipw_WritePort	24	static
+../RTD/Dio_TS_T40D34M70I1R0/src/Dio_Ipw.c:488:19:Dio_Ipw_ReadChannelGroup	32	static
+../RTD/Dio_TS_T40D34M70I1R0/src/Dio_Ipw.c:536:6:Dio_Ipw_WriteChannelGroup	24	static

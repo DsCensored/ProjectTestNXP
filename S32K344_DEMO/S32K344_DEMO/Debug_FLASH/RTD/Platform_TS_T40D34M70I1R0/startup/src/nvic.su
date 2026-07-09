@@ -1,0 +1,4 @@
+../RTD/Platform_TS_T40D34M70I1R0/startup/src/nvic.c:94:6:NVIC_SetPriorityGrouping	8	static
+../RTD/Platform_TS_T40D34M70I1R0/startup/src/nvic.c:106:6:NVIC_EnableIRQ	8	static
+../RTD/Platform_TS_T40D34M70I1R0/startup/src/nvic.c:117:6:NVIC_DisableIRQ	8	static
+../RTD/Platform_TS_T40D34M70I1R0/startup/src/nvic.c:129:6:NVIC_SetPriority	16	static

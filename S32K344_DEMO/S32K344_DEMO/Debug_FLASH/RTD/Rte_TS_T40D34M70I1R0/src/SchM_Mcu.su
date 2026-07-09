@@ -1,0 +1,7 @@
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Mcu.c:307:8:Mcu_schm_read_msr	4	static
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Mcu.c:449:6:SchM_Enter_Mcu_MCU_EXCLUSIVE_AREA_00	16	static
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Mcu.c:473:6:SchM_Exit_Mcu_MCU_EXCLUSIVE_AREA_00	16	static
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Mcu.c:487:6:SchM_Enter_Mcu_MCU_EXCLUSIVE_AREA_01	16	static
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Mcu.c:511:6:SchM_Exit_Mcu_MCU_EXCLUSIVE_AREA_01	16	static
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Mcu.c:525:6:SchM_Enter_Mcu_MCU_EXCLUSIVE_AREA_02	16	static
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Mcu.c:549:6:SchM_Exit_Mcu_MCU_EXCLUSIVE_AREA_02	16	static

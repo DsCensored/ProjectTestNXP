@@ -1,0 +1,7 @@
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Gdu.c:307:8:Gdu_schm_read_msr	4	static
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Gdu.c:449:6:SchM_Enter_Gdu_GDU_EXCLUSIVE_AREA_00	16	static
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Gdu.c:473:6:SchM_Exit_Gdu_GDU_EXCLUSIVE_AREA_00	16	static
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Gdu.c:487:6:SchM_Enter_Gdu_GDU_EXCLUSIVE_AREA_01	16	static
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Gdu.c:511:6:SchM_Exit_Gdu_GDU_EXCLUSIVE_AREA_01	16	static
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Gdu.c:525:6:SchM_Enter_Gdu_GDU_EXCLUSIVE_AREA_02	16	static
+../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Gdu.c:549:6:SchM_Exit_Gdu_GDU_EXCLUSIVE_AREA_02	16	static
