@@ -33,10 +33,22 @@ NS_ :
 
 BS_:
 
-BU_:
+BU_: New_Node_1
 
 
-BO_ 258 Sts_Meg: 8 Vector__XXX
+BO_ 1901 Uds_Tx: 8 New_Node_1
+ SG_ Can_uds_tx : 7|64@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1893 Uds_Rx_Phy: 8 Vector__XXX
+ SG_ Can_uds_rx_phy : 7|64@0+ (1,0) [0|0] ""  New_Node_1
+
+BO_ 2015 Uds_Rx_Fun: 8 Vector__XXX
+ SG_ Can_uds_rx_fun : 7|64@0- (1,0) [0|0] ""  New_Node_1
+
+BO_ 1536 Can_Nm: 8 New_Node_1
+ SG_ Can_Nm_msg : 7|64@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 258 Sts_Meg: 8 New_Node_1
  SG_ ADC1_S10_Vltg : 15|16@0+ (0.001,0) [0|0] "" Vector__XXX
  SG_ LED3_STS : 2|1@0+ (1,0) [0|0] "" Vector__XXX
  SG_ LED2_STS : 1|1@0+ (1,0) [0|0] "" Vector__XXX
@@ -44,10 +56,10 @@ BO_ 258 Sts_Meg: 8 Vector__XXX
  SG_ LED0_STS : 0|1@0+ (1,0) [0|0] "" Vector__XXX
 
 BO_ 257 Ctrl_Cmd: 8 Vector__XXX
- SG_ LED3_STS : 3|1@0+ (1,0) [0|0] "" Vector__XXX
- SG_ LED2_STS : 2|1@0+ (1,0) [0|0] "" Vector__XXX
- SG_ LED1_STS : 6|1@0+ (1,0) [0|0] "" Vector__XXX
- SG_ LED0_STS : 0|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ LED3_STS : 3|1@0+ (1,0) [0|0] ""  New_Node_1
+ SG_ LED2_STS : 2|1@0+ (1,0) [0|0] ""  New_Node_1
+ SG_ LED1_STS : 6|1@0+ (1,0) [0|0] ""  New_Node_1
+ SG_ LED0_STS : 0|1@0+ (1,0) [0|0] ""  New_Node_1
 
 
 
@@ -75,6 +87,10 @@ BA_DEF_DEF_  "CANoeStartDelay" 0;
 BA_DEF_DEF_  "VFrameFormat" "StandardCAN";
 BA_ "BusType" "CAN FD";
 BA_ "DBName" "S32K344_DEMO";
+BA_ "VFrameFormat" BO_ 1901 14;
+BA_ "VFrameFormat" BO_ 1893 14;
+BA_ "VFrameFormat" BO_ 2015 14;
+BA_ "VFrameFormat" BO_ 1536 14;
 BA_ "VFrameFormat" BO_ 258 14;
 BA_ "VFrameFormat" BO_ 257 14;
 

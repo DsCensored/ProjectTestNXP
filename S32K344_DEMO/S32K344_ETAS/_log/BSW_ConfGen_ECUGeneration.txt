@@ -1,0 +1,26 @@
+Conf-Gen PreProcessor executing...
+Detected Ecu Extract preference customization file in the project: D:\ProjectTestNXP\S32K344_DEMO\S32K344_ETAS\EcuExtract_CLI_Input.txt
+ECUExtract is skipped.
+Conf-Gen PreProcessor executed.
+Conf-Gen executing...
+********************************************************************************
+Conf-Gen Execution Started
+********************************************************************************
+Tool Version : ISOLAR-B 
+Tool Build Id :20230413_1800
+Date : Fri Dec 01 15:08:11 CST 2023
+Project : S32K344_DEMO
+********************************************************************************
+Executing Start Script: RTA-BSW
+********************************************************************************
+Executing 'Conf-Gen Enhancer' for project 'S32K344_DEMO'
+********************************************************************************
+********************************************************************************
+Time taken for Executing Conf-Gen Enhancer: 00:00:00:009
+********************************************************************************
+********************************************************************************
+Total Time taken for Conf-Gen Execution: 00:00:06:956
+********************************************************************************
+Conf-Gen executed.
+Conf-Gen PostProcessor executing...
+Conf-Gen PostProcessor executed.

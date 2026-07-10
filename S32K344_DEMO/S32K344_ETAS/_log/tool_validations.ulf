@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ULF-PROCESSING-LOG>
+<ADMIN-DATA>
+<LANGUAGE>EN</LANGUAGE>
+<USED-LANGUAGES>
+<L-10 L="EN">English</L-10>
+<L-10 L="DE">German</L-10>
+</USED-LANGUAGES>
+</ADMIN-DATA>
+<LOG-ENTRY TI="VALIDATION_EXECUTION">
+<SHORT-NAME>ISOLAR-B_12.1.2_1</SHORT-NAME>
+<DESC>
+<L-2 L="EN">ISOLAR-B Validation successful for S32K344_DEMO:[AUTOSAR System,AUTOSAR BSWMDT,AUTOSAR User Validations AAT,BSW AUTOSAR (Complete Project Validation - ProductLine),AUTOSAR Paramdef Merge Validations,AUTOSAR Dext,AUTOSAR ECU,AUTOSAR Software]</L-2>
+</DESC>
+<CATEGORY>SYSTEM</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-ARCH-COMP">S32K344_DEMO</SD>
+<SD GID="ULF-INCIDENT-URL">.</SD>
+<SD GID="ULF-HELP-URL">file:///D:/RTA-CAR_12.1.0/ISOLAR-AB_12.1.2/Documentation\ISOLAR-B_Help_ErrorDescription.pdf</SD>
+<SD GID="ULF-TOOL-NAME">ISOLAR-B</SD>
+<SD GID="ULF-TOOL-VERSION">12.1.2</SD>
+<SD GID="ULF-TOOL-EXEC">Completed</SD>
+</SDG>
+<SDG GID="ULFANNOTATION">
+<SD GID="ULFANNOTATION-COMMENT"></SD>
+<SD GID="ULFANNOTATION-STATE"></SD>
+<SD GID="ULFANNOTATION-RESULT"></SD>
+<SD GID="ULFANNOTATION-TIMESTAMP">2023-12-01T15:08:30.055+0800</SD>
+<SD GID="ULFANNOTATION-USERNAME"></SD>
+<SD GID="ULFANNOTATION-USERHELP"></SD>
+<SD GID="ULFANNOTATION-TYPE">COMMENT</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="project_name">S32K344_DEMO</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="Resource">.</SD>
+<SD GID="PROJECT">S32K344_DEMO</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="UUID"></SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="ASW4X_RTTM_0001">
+<SHORT-NAME>ISOLAR-A_1</SHORT-NAME>
+<DESC>
+<L-2 L="EN">The EcucValueCollection &lt;EcucValueCollection_0&gt; does not have the reference EcuExtract configured or it contains unresolved reference.[Infos] &lt;EcucValueCollection_0&gt;:&lt;/ETAS_Project/EcucModuleConfigurationValuess/EcucValueCollection_0&gt;</L-2>
+</DESC>
+<CATEGORY>ERROR</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">EcucValueCollection_Generated.arxml</SD>
+<SD GID="ULF-HELP-URL">file:///D:/RTA-CAR_12.1.0/ISOLAR-AB_12.1.2/Documentation\ISOLAR-A_Help_ErrorDescription.pdf</SD>
+<SD GID="ULF-LINE-NUMBER-START">0</SD>
+<SD GID="ULF-TOOL-NAME">ISOLAR-A</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="editorInputUri">platform:/resource/S32K344_DEMO/EcucValueCollection_Generated.arxml#/ETAS_Project/EcucModuleConfigurationValuess/EcucValueCollection_0?type=EcucValueCollection</SD>
+<SD GID="editorID">com.bosch.autosartool.generic.editor</SD>
+<SD GID="project_name">S32K344_DEMO</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="ModelTraversal">AutosarModelTraversal</SD>
+<SD GID="PROJECT">S32K344_DEMO</SD>
+<SD GID="elementCategory">EcucValueCollection</SD>
+<SD GID="Resource">/S32K344_DEMO/EcucValueCollection_Generated.arxml</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="QUALIFIEDNAME">/ETAS_Project/EcucModuleConfigurationValuess/EcucValueCollection_0</SD>
+<SD GID="URI">platform:/resource/S32K344_DEMO/EcucValueCollection_Generated.arxml#/ETAS_Project/EcucModuleConfigurationValuess/EcucValueCollection_0?type=EcucValueCollection</SD>
+<SD GID="validationMode">Batch</SD>
+<SD GID="elementName">EcucValueCollection_0</SD>
+<SD GID="ELEMENT">EcucValueCollection_0</SD>
+<SD GID="useCase">AUTOSAR</SD>
+<SD GID="constraintPluginId">com.bosch.autosartool.common.util</SD>
+<SD GID="feature">ecuExtract</SD>
+<SD GID="Component name">EcucValueCollection_0</SD>
+<SD GID="HELP_URL">file:/D:/RTA-CAR_12.1.0/ISOLAR-AB_12.1.2/Documentation\ISOLAR-A_Help_ErrorDescription.pdf</SD>
+<SD GID="com.bosch.blueworx.core.logging.view.problemslog.markerClickExecutionID">DoubleClickValidation</SD>
+<SD GID="CategoryName">ISOLAR-A</SD>
+<SD GID="id">ASW4X_RTTM_0001</SD>
+<SD GID="ELEMENTECLASS">EcucValueCollection</SD>
+<SD GID="shortName">ASW4X_RTTM_0001</SD>
+<SD GID="value"></SD>
+<SD GID="placeholder_Message">The EcucValueCollection &lt;EcucValueCollection_0&gt; does not have the reference EcuExtract configured or it contains unresolved reference.[Infos] &lt;EcucValueCollection_0&gt;:&lt;/ETAS_Project/EcucModuleConfigurationValuess/EcucValueCollection_0&gt;</SD>
+<SD GID="COMPONENT_NAME">EcucValueCollection_0</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="BCT014">
+<SHORT-NAME>ISOLAR-B_1</SHORT-NAME>
+<DESC>
+<L-2 L="EN">The number of instances of element "DcmGeneral" in parent "/ETAS_Project/EcucModuleConfigurationValuess/Dcm" is less than the lower multiplicity of "1".</L-2>
+</DESC>
+<CATEGORY>ERROR</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-ARCH-COMP">S32K344_DEMO</SD>
+<SD GID="ULF-INCIDENT-URL">New_Node_1_Project_EcucValues.arxml</SD>
+<SD GID="ULF-HELP-URL">file:///D:/RTA-CAR_12.1.0/ISOLAR-AB_12.1.2/Documentation\ISOLAR-B_Help_ErrorDescription.pdf</SD>
+<SD GID="ULF-TOOL-NAME">ISOLAR-B</SD>
+</SDG>
+<SDG GID="BCT_Logging">
+<SD GID="ModuleName">Dcm</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="editorInputUri">platform:/resource/S32K344_DEMO/New_Node_1_Project_EcucValues.arxml#/ETAS_Project/EcucModuleConfigurationValuess/Dcm?type=EcucModuleConfigurationValues</SD>
+<SD GID="editorID">com.bosch.autosartool.bsw.editor.ar4x.bswPropertiesEditor</SD>
+<SD GID="project_name">S32K344_DEMO</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="ModelTraversal">ExtendedBSWAutosarModelTraversal</SD>
+<SD GID="PROJECT">S32K344_DEMO</SD>
+<SD GID="elementCategory">EcucModuleConfigurationValues</SD>
+<SD GID="Resource">/S32K344_DEMO/New_Node_1_Project_EcucValues.arxml</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="QUALIFIEDNAME">/ETAS_Project/EcucModuleConfigurationValuess/Dcm</SD>
+<SD GID="URI">platform:/resource/S32K344_DEMO/New_Node_1_Project_EcucValues.arxml#/ETAS_Project/EcucModuleConfigurationValuess/Dcm?type=EcucModuleConfigurationValues</SD>
+<SD GID="validationMode">Batch</SD>
+<SD GID="elementName">Dcm</SD>
+<SD GID="ELEMENT">Dcm</SD>
+<SD GID="useCase">AUTOSAR</SD>
+<SD GID="constraintPluginId">com.bosch.autosartool.bsw.validation4x.bworx</SD>
+<SD GID="feature"></SD>
+<SD GID="Component name">Dcm</SD>
+<SD GID="HELP_URL">file:/D:/RTA-CAR_12.1.0/ISOLAR-AB_12.1.2/Documentation\ISOLAR-B_Help_ErrorDescription.pdf</SD>
+<SD GID="CategoryName">ISOLAR-B</SD>
+<SD GID="id">BCT014</SD>
+<SD GID="ELEMENTECLASS">EcucModuleConfigurationValues</SD>
+<SD GID="shortName">ECUC-VAL-CFG-MULTIPLICITY-VIOLATION</SD>
+<SD GID="value"></SD>
+<SD GID="placeholder_Message">The number of instances of element "DcmGeneral" in parent "/ETAS_Project/EcucModuleConfigurationValuess/Dcm" is less than the lower multiplicity of "1".</SD>
+<SD GID="COMPONENT_NAME">Dcm</SD>
+<SD GID="ArchCompID">S32K344_DEMO</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="BCT014">
+<SHORT-NAME>ISOLAR-B_2</SHORT-NAME>
+<DESC>
+<L-2 L="EN">The number of instances of element "DcmConfigSet" in parent "/ETAS_Project/EcucModuleConfigurationValuess/Dcm" is less than the lower multiplicity of "1".</L-2>
+</DESC>
+<CATEGORY>ERROR</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-ARCH-COMP">S32K344_DEMO</SD>
+<SD GID="ULF-INCIDENT-URL">New_Node_1_Project_EcucValues.arxml</SD>
+<SD GID="ULF-HELP-URL">file:///D:/RTA-CAR_12.1.0/ISOLAR-AB_12.1.2/Documentation\ISOLAR-B_Help_ErrorDescription.pdf</SD>
+<SD GID="ULF-TOOL-NAME">ISOLAR-B</SD>
+</SDG>
+<SDG GID="BCT_Logging">
+<SD GID="ModuleName">Dcm</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="editorInputUri">platform:/resource/S32K344_DEMO/New_Node_1_Project_EcucValues.arxml#/ETAS_Project/EcucModuleConfigurationValuess/Dcm?type=EcucModuleConfigurationValues</SD>
+<SD GID="editorID">com.bosch.autosartool.bsw.editor.ar4x.bswPropertiesEditor</SD>
+<SD GID="project_name">S32K344_DEMO</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="ModelTraversal">ExtendedBSWAutosarModelTraversal</SD>
+<SD GID="PROJECT">S32K344_DEMO</SD>
+<SD GID="elementCategory">EcucModuleConfigurationValues</SD>
+<SD GID="Resource">/S32K344_DEMO/New_Node_1_Project_EcucValues.arxml</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="QUALIFIEDNAME">/ETAS_Project/EcucModuleConfigurationValuess/Dcm</SD>
+<SD GID="URI">platform:/resource/S32K344_DEMO/New_Node_1_Project_EcucValues.arxml#/ETAS_Project/EcucModuleConfigurationValuess/Dcm?type=EcucModuleConfigurationValues</SD>
+<SD GID="validationMode">Batch</SD>
+<SD GID="elementName">Dcm</SD>
+<SD GID="ELEMENT">Dcm</SD>
+<SD GID="useCase">AUTOSAR</SD>
+<SD GID="constraintPluginId">com.bosch.autosartool.bsw.validation4x.bworx</SD>
+<SD GID="feature"></SD>
+<SD GID="Component name">Dcm</SD>
+<SD GID="HELP_URL">file:/D:/RTA-CAR_12.1.0/ISOLAR-AB_12.1.2/Documentation\ISOLAR-B_Help_ErrorDescription.pdf</SD>
+<SD GID="CategoryName">ISOLAR-B</SD>
+<SD GID="id">BCT014</SD>
+<SD GID="ELEMENTECLASS">EcucModuleConfigurationValues</SD>
+<SD GID="shortName">ECUC-VAL-CFG-MULTIPLICITY-VIOLATION</SD>
+<SD GID="value"></SD>
+<SD GID="placeholder_Message">The number of instances of element "DcmConfigSet" in parent "/ETAS_Project/EcucModuleConfigurationValuess/Dcm" is less than the lower multiplicity of "1".</SD>
+<SD GID="COMPONENT_NAME">Dcm</SD>
+<SD GID="ArchCompID">S32K344_DEMO</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="BCT014">
+<SHORT-NAME>ISOLAR-B_3</SHORT-NAME>
+<DESC>
+<L-2 L="EN">The number of instances of element "CanTpChannel" in parent "/ETAS_Project/EcucModuleConfigurationValuess/CanTp/CanTpConfig" is less than the lower multiplicity of "1".</L-2>
+</DESC>
+<CATEGORY>ERROR</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-ARCH-COMP">S32K344_DEMO</SD>
+<SD GID="ULF-INCIDENT-URL">New_Node_1_Project_EcucValues.arxml</SD>
+<SD GID="ULF-HELP-URL">file:///D:/RTA-CAR_12.1.0/ISOLAR-AB_12.1.2/Documentation\ISOLAR-B_Help_ErrorDescription.pdf</SD>
+<SD GID="ULF-TOOL-NAME">ISOLAR-B</SD>
+</SDG>
+<SDG GID="BCT_Logging">
+<SD GID="ModuleName">CanTp</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="editorInputUri">platform:/resource/S32K344_DEMO/New_Node_1_Project_EcucValues.arxml#/ETAS_Project/EcucModuleConfigurationValuess/CanTp/CanTpConfig?type=EcucContainerValue</SD>
+<SD GID="editorID">com.bosch.autosartool.bsw.editor.ar4x.bswPropertiesEditor</SD>
+<SD GID="project_name">S32K344_DEMO</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="ModelTraversal">ExtendedBSWAutosarModelTraversal</SD>
+<SD GID="PROJECT">S32K344_DEMO</SD>
+<SD GID="elementCategory">EcucContainerValue</SD>
+<SD GID="Resource">/S32K344_DEMO/New_Node_1_Project_EcucValues.arxml</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="QUALIFIEDNAME">/ETAS_Project/EcucModuleConfigurationValuess/CanTp/CanTpConfig</SD>
+<SD GID="URI">platform:/resource/S32K344_DEMO/New_Node_1_Project_EcucValues.arxml#/ETAS_Project/EcucModuleConfigurationValuess/CanTp/CanTpConfig?type=EcucContainerValue</SD>
+<SD GID="validationMode">Batch</SD>
+<SD GID="elementName">CanTpConfig</SD>
+<SD GID="ELEMENT">CanTpConfig</SD>
+<SD GID="useCase">AUTOSAR</SD>
+<SD GID="constraintPluginId">com.bosch.autosartool.bsw.validation4x.bworx</SD>
+<SD GID="feature"></SD>
+<SD GID="Component name">CanTpConfig</SD>
+<SD GID="HELP_URL">file:/D:/RTA-CAR_12.1.0/ISOLAR-AB_12.1.2/Documentation\ISOLAR-B_Help_ErrorDescription.pdf</SD>
+<SD GID="CategoryName">ISOLAR-B</SD>
+<SD GID="id">BCT014</SD>
+<SD GID="ELEMENTECLASS">EcucContainerValue</SD>
+<SD GID="shortName">ECUC-VAL-CFG-MULTIPLICITY-VIOLATION</SD>
+<SD GID="value"></SD>
+<SD GID="placeholder_Message">The number of instances of element "CanTpChannel" in parent "/ETAS_Project/EcucModuleConfigurationValuess/CanTp/CanTpConfig" is less than the lower multiplicity of "1".</SD>
+<SD GID="COMPONENT_NAME">CanTpConfig</SD>
+<SD GID="ArchCompID">S32K344_DEMO</SD>
+</SDG>
+</LOG-ENTRY>
+</ULF-PROCESSING-LOG>
