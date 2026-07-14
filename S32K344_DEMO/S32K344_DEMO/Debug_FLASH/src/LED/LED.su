@@ -1,3 +1,0 @@
-../src/LED/LED.c:37:6:LED_EnabledSubsystem1	16	static
-../src/LED/LED.c:51:6:LED_step	184	static
-../src/LED/LED.c:698:6:LED_initialize	0	static

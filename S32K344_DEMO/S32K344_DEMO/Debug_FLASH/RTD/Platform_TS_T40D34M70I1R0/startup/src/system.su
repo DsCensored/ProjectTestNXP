@@ -1,4 +1,0 @@
-../RTD/Platform_TS_T40D34M70I1R0/startup/src/system.c:263:6:startup_go_to_user_mode	0	static
-../RTD/Platform_TS_T40D34M70I1R0/startup/src/system.c:276:6:default_interrupt_routine	0	static
-../RTD/Platform_TS_T40D34M70I1R0/startup/src/system.c:407:6:SystemInit	32	static
-../RTD/Platform_TS_T40D34M70I1R0/startup/src/system.c:740:6:Enable_FPU	0	static

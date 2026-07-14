@@ -243,6 +243,42 @@
           <a:a name="IMPORTER_INFO" value="@DEF"/>
         </d:var>
       </d:ctr>
+      <d:ctr name="MemAcc">
+        <d:var name="ConfigurationFileURL" value="config\MemAcc.xdm"/>
+        <d:var name="ConfigurationFormat" value="xdm"/>
+        <d:var name="GenerationPath" >
+          <a:a name="IMPORTER_INFO" value="@DEF"/>
+        </d:var>
+        <d:var name="PreConfig" >
+          <a:a name="IMPORTER_INFO" value="@DEF"/>
+        </d:var>
+        <d:var name="RecConfig" >
+          <a:a name="IMPORTER_INFO" value="@DEF"/>
+        </d:var>
+        <d:var name="ModuleId" value="MemAcc_TS_T40D34M70I1R0"/>
+        <d:var name="Enabled" value="TRUE"/>
+        <d:var name="Generate" value="TRUE"/>
+        <d:var name="LoadExistingConfigurationFile" value="FALSE"/>
+        <d:var name="SoftwareVersion" value="7.0.1 D2602"/>
+      </d:ctr>
+      <d:ctr name="Mem_43_INFLS">
+        <d:var name="ConfigurationFileURL" value="config\Mem_43_INFLS.xdm"/>
+        <d:var name="ConfigurationFormat" value="xdm"/>
+        <d:var name="GenerationPath" >
+          <a:a name="IMPORTER_INFO" value="@DEF"/>
+        </d:var>
+        <d:var name="PreConfig" >
+          <a:a name="IMPORTER_INFO" value="@DEF"/>
+        </d:var>
+        <d:var name="RecConfig" >
+          <a:a name="IMPORTER_INFO" value="@DEF"/>
+        </d:var>
+        <d:var name="ModuleId" value="Mem_43_INFLS_TS_T40D34M70I1R0"/>
+        <d:var name="Enabled" value="TRUE"/>
+        <d:var name="Generate" value="TRUE"/>
+        <d:var name="LoadExistingConfigurationFile" value="FALSE"/>
+        <d:var name="SoftwareVersion" value="7.0.1 D2602"/>
+      </d:ctr>
       <d:ctr name="Os">
         <d:var name="ModuleId" value="Os_TS_T40D34M70I1R0"/>
         <d:var name="Enabled" value="TRUE"/>

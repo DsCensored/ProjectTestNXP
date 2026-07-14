@@ -53,8 +53,9 @@ extern "C" {
 #include "Mcl.h"
 #include "Pwm.h"
 #include "Icu.h"
+#include "MemAcc.h"
 
-#include "MODELAPP.h"
+#include "ModelAPP.h"
 #include "Task.h"
 #include "ADC_userCode.h"
 
@@ -214,6 +215,9 @@ static void MCAL_Init(void)
 
     /* Start Icu driver */
     Icu_StartSignalMeasurement(IcuConf_IcuChannel_IcuChannel_0);
+
+    /* Init MemAcc */
+    MemAcc_Init(&MemAcc_Config);
 }
 
 /**

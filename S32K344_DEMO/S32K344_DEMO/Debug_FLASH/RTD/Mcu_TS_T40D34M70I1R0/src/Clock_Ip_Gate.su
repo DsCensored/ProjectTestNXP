@@ -1,6 +1,0 @@
-../RTD/Mcu_TS_T40D34M70I1R0/src/Clock_Ip_Gate.c:143:13:Clock_Ip_ClockSetGateEmpty	8	static
-../RTD/Mcu_TS_T40D34M70I1R0/src/Clock_Ip_Gate.c:148:13:Clock_Ip_ClockUpdateGateEmpty	8	static
-../RTD/Mcu_TS_T40D34M70I1R0/src/Clock_Ip_Gate.c:156:13:Clock_Ip_ClockEnableGate	48	static
-../RTD/Mcu_TS_T40D34M70I1R0/src/Clock_Ip_Gate.c:213:13:Clock_Ip_ClockDisableGate	48	static
-../RTD/Mcu_TS_T40D34M70I1R0/src/Clock_Ip_Gate.c:272:13:Clock_Ip_ClockSetGateMcMePartitionCollectionClockRequest	32	static
-../RTD/Mcu_TS_T40D34M70I1R0/src/Clock_Ip_Gate.c:307:13:Clock_Ip_ClockUpdateGateMcMePartitionCollectionClockRequest	24	static

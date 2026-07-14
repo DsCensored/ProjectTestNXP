@@ -1,9 +1,0 @@
-../RTD/Gpt_TS_T40D34M70I1R0/src/Gpt_Ipw.c:273:22:Gpt_Ipw_PitGetTimeElapsed	24	static
-../RTD/Gpt_TS_T40D34M70I1R0/src/Gpt_Ipw.c:312:6:Gpt_Ipw_InitInstances	24	static
-../RTD/Gpt_TS_T40D34M70I1R0/src/Gpt_Ipw.c:370:6:Gpt_Ipw_Init	16	static
-../RTD/Gpt_TS_T40D34M70I1R0/src/Gpt_Ipw.c:424:16:Gpt_Ipw_StartTimer	24	static
-../RTD/Gpt_TS_T40D34M70I1R0/src/Gpt_Ipw.c:488:15:Gpt_Ipw_GetTimeElapsed	24	static
-../RTD/Gpt_TS_T40D34M70I1R0/src/Gpt_Ipw.c:541:6:Gpt_Ipw_StopTimer	16	static
-../RTD/Gpt_TS_T40D34M70I1R0/src/Gpt_Ipw.c:595:6:Gpt_Ipw_EnableInterrupt	16	static
-../RTD/Gpt_TS_T40D34M70I1R0/src/Gpt_Ipw.c:646:6:Gpt_Ipw_DeInit	16	static
-../RTD/Gpt_TS_T40D34M70I1R0/src/Gpt_Ipw.c:697:6:Gpt_Ipw_DisableInterrupt	16	static

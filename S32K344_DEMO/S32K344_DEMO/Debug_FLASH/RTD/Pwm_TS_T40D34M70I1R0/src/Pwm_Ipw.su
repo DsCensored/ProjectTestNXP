@@ -1,8 +1,0 @@
-../RTD/Pwm_TS_T40D34M70I1R0/src/Pwm_Ipw.c:773:6:Pwm_Ipw_Init	16	static
-../RTD/Pwm_TS_T40D34M70I1R0/src/Pwm_Ipw.c:904:6:Pwm_Ipw_DeInit	24	static
-../RTD/Pwm_TS_T40D34M70I1R0/src/Pwm_Ipw.c:1079:16:Pwm_Ipw_SetDutyCycle	32	static
-../RTD/Pwm_TS_T40D34M70I1R0/src/Pwm_Ipw.c:1174:16:Pwm_Ipw_SetPeriodAndDuty	40	static
-../RTD/Pwm_TS_T40D34M70I1R0/src/Pwm_Ipw.c:1354:21:Pwm_Ipw_GetOutputState	24	static
-../RTD/Pwm_TS_T40D34M70I1R0/src/Pwm_Ipw.c:1721:8:Pwm_Ipw_GetChannelState	16	static
-../RTD/Pwm_TS_T40D34M70I1R0/src/Pwm_Ipw.c:3230:8:Pwm_Ipw_GetMaxPeriodValue	16	static
-../RTD/Pwm_TS_T40D34M70I1R0/src/Pwm_Ipw.c:3348:16:Pwm_Ipw_ValidateGetOutputState	16	static

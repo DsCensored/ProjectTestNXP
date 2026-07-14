@@ -1,5 +1,0 @@
-../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Sent.c:304:8:Sent_schm_read_msr	4	static
-../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Sent.c:446:6:SchM_Enter_Sent_SENT_EXCLUSIVE_AREA_00	16	static
-../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Sent.c:470:6:SchM_Exit_Sent_SENT_EXCLUSIVE_AREA_00	16	static
-../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Sent.c:484:6:SchM_Enter_Sent_SENT_EXCLUSIVE_AREA_01	16	static
-../RTD/Rte_TS_T40D34M70I1R0/src/SchM_Sent.c:508:6:SchM_Exit_Sent_SENT_EXCLUSIVE_AREA_01	16	static

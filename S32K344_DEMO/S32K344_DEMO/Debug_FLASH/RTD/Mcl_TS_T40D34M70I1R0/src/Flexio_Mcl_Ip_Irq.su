@@ -1,3 +1,0 @@
-D:/ProjectTestNXP/S32K344_DEMO/S32K344_DEMO/RTD/Mcl_TS_T40D34M70I1R0/include/Flexio_Mcl_Ip_HwAccess.h:352:22:Flexio_Mcl_Ip_GetAllTimerStatus	8	static
-../RTD/Mcl_TS_T40D34M70I1R0/src/Flexio_Mcl_Ip_Irq.c:294:13:Flexio_Mcl_Ip_CommonIrq	16	static
-../RTD/Mcl_TS_T40D34M70I1R0/src/Flexio_Mcl_Ip_Irq.c:791:1:MCL_FLEXIO_ISR	8	static

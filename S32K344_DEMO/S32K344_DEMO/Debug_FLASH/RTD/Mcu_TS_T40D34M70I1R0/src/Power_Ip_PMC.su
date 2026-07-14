@@ -1,4 +1,0 @@
-../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip_PMC.c:250:6:Power_Ip_PMC_PowerInit	48	static
-../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip_PMC.c:437:6:Power_Ip_PMC_PrepareLowPowerEntry	16	static
-../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip_PMC.c:809:6:Power_Ip_PMC_EnableLastMile	40	static
-../RTD/Mcu_TS_T40D34M70I1R0/src/Power_Ip_PMC.c:874:6:Power_Ip_PMC_DisableLastMile	0	static

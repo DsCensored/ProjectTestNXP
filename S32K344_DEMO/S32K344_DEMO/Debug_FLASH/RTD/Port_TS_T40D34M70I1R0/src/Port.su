@@ -1,5 +1,0 @@
-../RTD/Port_TS_T40D34M70I1R0/src/Port.c:186:6:Port_Init	24	static
-../RTD/Port_TS_T40D34M70I1R0/src/Port.c:253:6:Port_SetPinDirection	16	static
-../RTD/Port_TS_T40D34M70I1R0/src/Port.c:299:6:Port_SetPinMode	16	static
-../RTD/Port_TS_T40D34M70I1R0/src/Port.c:341:6:Port_RefreshPortDirection	8	static
-../RTD/Port_TS_T40D34M70I1R0/src/Port.c:383:6:Port_GetVersionInfo	8	static

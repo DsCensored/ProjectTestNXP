@@ -1,6 +1,0 @@
--c
--I"D:/ProjectTestNXP/S32K344_DEMO/S32K344_DEMO/include"
--x assembler-with-cpp
--g3
--mcpu=cortex-m7
--specs=rdimon.specs

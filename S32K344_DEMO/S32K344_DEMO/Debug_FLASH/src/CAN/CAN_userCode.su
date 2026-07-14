@@ -1,4 +1,0 @@
-../src/CAN/CAN_userCode.c:15:6:CANFD_Message_Send	32	static
-../src/CAN/CAN_userCode.c:41:6:CAN_RX_STD	16	static
-../src/CAN/CAN_userCode.c:49:6:CAN_RX_EXT	8	static
-../src/CAN/CAN_userCode.c:54:6:CANFD_Message_Receive	8	static

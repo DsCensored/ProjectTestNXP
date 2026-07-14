@@ -1,3 +1,0 @@
-../src/ModelAPP.c:17:6:ModelAPP_Init	8	static
-../src/ModelAPP.c:22:6:APPTask_100ms	8	static
-../src/ModelAPP.c:30:6:APPTask_2ms	8	static

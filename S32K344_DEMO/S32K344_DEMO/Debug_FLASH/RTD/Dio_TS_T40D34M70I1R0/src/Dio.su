@@ -1,7 +1,0 @@
-../RTD/Dio_TS_T40D34M70I1R0/src/Dio.c:631:15:Dio_ReadChannel	24	static
-../RTD/Dio_TS_T40D34M70I1R0/src/Dio.c:664:6:Dio_WriteChannel	16	static
-../RTD/Dio_TS_T40D34M70I1R0/src/Dio.c:707:15:Dio_FlipChannel	24	static
-../RTD/Dio_TS_T40D34M70I1R0/src/Dio.c:740:19:Dio_ReadPort	24	static
-../RTD/Dio_TS_T40D34M70I1R0/src/Dio.c:773:6:Dio_WritePort	16	static
-../RTD/Dio_TS_T40D34M70I1R0/src/Dio.c:805:19:Dio_ReadChannelGroup	24	static
-../RTD/Dio_TS_T40D34M70I1R0/src/Dio.c:889:6:Dio_WriteChannelGroup	16	static

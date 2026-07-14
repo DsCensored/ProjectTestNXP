@@ -1,9 +1,0 @@
-../RTD/BaseNXP_TS_T40D34M70I1R0/src/OsIf_Timer.c:241:22:OsIf_Timer_Dummy_GetCounter	0	static
-../RTD/BaseNXP_TS_T40D34M70I1R0/src/OsIf_Timer.c:252:22:OsIf_Timer_Dummy_GetElapsed	8	static
-../RTD/BaseNXP_TS_T40D34M70I1R0/src/OsIf_Timer.c:264:20:OsIf_Timer_Dummy_SetTimerFrequency	8	static
-../RTD/BaseNXP_TS_T40D34M70I1R0/src/OsIf_Timer.c:275:22:OsIf_Timer_Dummy_MicrosToTicks	8	static
-../RTD/BaseNXP_TS_T40D34M70I1R0/src/OsIf_Timer.c:312:6:OsIf_Init	8	static
-../RTD/BaseNXP_TS_T40D34M70I1R0/src/OsIf_Timer.c:342:8:OsIf_GetCounter	24	static
-../RTD/BaseNXP_TS_T40D34M70I1R0/src/OsIf_Timer.c:377:8:OsIf_GetElapsed	24	static
-../RTD/BaseNXP_TS_T40D34M70I1R0/src/OsIf_Timer.c:414:6:OsIf_SetTimerFrequency	16	static
-../RTD/BaseNXP_TS_T40D34M70I1R0/src/OsIf_Timer.c:446:8:OsIf_MicrosToTicks	24	static

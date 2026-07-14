@@ -1,4 +1,0 @@
-../RTD/Os_TS_T40D34M70I1R0/src/Os_event.c:57:12:SetEvent	8	static
-../RTD/Os_TS_T40D34M70I1R0/src/Os_event.c:64:12:ClearEvent	8	static
-../RTD/Os_TS_T40D34M70I1R0/src/Os_event.c:70:12:WaitEvent	8	static
-../RTD/Os_TS_T40D34M70I1R0/src/Os_event.c:76:12:GetEvent	8	static

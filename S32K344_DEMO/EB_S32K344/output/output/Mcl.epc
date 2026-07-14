@@ -56,7 +56,7 @@
                   <PARAMETER-VALUES>
                     <BOOLEAN-VALUE>
                       <DEFINITION-REF>/TS_T40D34M70I1R0/Mcl/MclGeneral/MclCache/MclEnableCache</DEFINITION-REF>
-                      <VALUE>false</VALUE>
+                      <VALUE>true</VALUE>
                     </BOOLEAN-VALUE>
                   </PARAMETER-VALUES>
                 </CONTAINER>
